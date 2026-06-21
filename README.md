@@ -13,7 +13,7 @@ Takım 48
  
 ## Ürün İsmi
  
---CareerForge--
+-CareerForge-
  
 ## Ürün Açıklaması
  
@@ -21,23 +21,23 @@ Takım 48
   
 ## Ürün Özellikleri
  
--MVP
--CV yükleme
--CV analiz etme
--Beceri çıkarımı
--Skill gap analizi
--Kariyer önerileri
--Öğrenme yol haritası
+- MVP
+- CV yükleme
+- CV analiz etme
+- Beceri çıkarımı
+- Skill gap analizi
+- Kariyer önerileri
+- Öğrenme yol haritası
 Ek Özellikler
--AI mülakat simülasyonu
--CV puanlama sistemi
--Sertifika önerileri
--Kişisel gelişim takibi
+- AI mülakat simülasyonu
+- CV puanlama sistemi
+- Sertifika önerileri
+- Kişisel gelişim takibi
  
 ## Hedef Kitle
  
 - Üniversite öğrencileri
--Yeni mezunlar
--Kariyer değişikliği yapmak isteyenler
--Staj arayan adaylar
--Junior yazılım geliştiriciler
+- Yeni mezunlar
+- Kariyer değişikliği yapmak isteyenler
+- Staj arayan adaylar
+- Junior yazılım geliştiriciler
