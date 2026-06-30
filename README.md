@@ -10,6 +10,7 @@ Takım 48
 - Betül Danışmaz: Scrum Master
 - Selma Bener: Team Member/Developer
 - Ahmet Yasir Duman: Team Member/Developer
+- Fırat Kaan Çıkar: Team Member/Developer
  
 ## Ürün İsmi
  
