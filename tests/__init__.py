@@ -1,0 +1,3 @@
+"""
+AquaSentinel AI — Test Paketi
+"""

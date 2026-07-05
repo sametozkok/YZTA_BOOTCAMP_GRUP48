@@ -1,0 +1,21 @@
+# ============================================
+# AquaSentinel AI - Bağımlılıklar
+# Sprint 1: Altyapı ve Veri Boru Hattı
+# ============================================
+
+# --- Core ---
+numpy>=1.24.0
+pandas>=2.0.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# --- Uydu Verisi İşleme ---
+netCDF4>=1.6.0
+rasterio>=1.3.0
+sentinelsat>=1.2.1
+
+# --- Test ---
+pytest>=7.4.0
+
+# --- Sprint 2 Hazırlık: AI Agent ---
+langchain-core>=0.2.0
