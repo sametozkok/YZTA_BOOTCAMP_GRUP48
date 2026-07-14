@@ -19,3 +19,7 @@ pytest>=7.4.0
 
 # --- Sprint 2 Hazırlık: AI Agent ---
 langchain-core>=0.2.0
+
+# --- Görselleştirme ---
+matplotlib>=3.7.0
+

@@ -1,245 +1,107 @@
-# 🌊 AquaSentinel AI
+# **Takım İsmi**
 
-**Uydu Verileri Destekli Yapay Zeka Tabanlı Müsilaj Erken Uyarı Sistemi**
+Takım 48
 
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
-[![Sprint](https://img.shields.io/badge/Sprint-1%20Tamamlandı-brightgreen.svg)]()
-[![Tests](https://img.shields.io/badge/Tests-39%20Passed-success.svg)]()
+# Ürün İle İlgili Bilgiler
 
----
+## Takım Elemanları
 
-## 📖 Proje Hakkında
+- Samet Özkök: Product Owner ([LinkedIn](#) | [GitHub](https://github.com/sametozkok))
+- Betül Danışmaz: Scrum Master ([LinkedIn](#) | [GitHub](https://github.com/betuldanismaz))
+- Fırat Kaan Çıkar: Team Member/Developer ([LinkedIn](https://www.linkedin.com/in/fkaancikar) | [GitHub](https://github.com/fkaanc))
+- Selma Bener: Team Member/Developer ([LinkedIn](#) | [GitHub](https://github.com/selmaabe))
+- Ahmet Yasir Duman: Team Member/Developer ([LinkedIn](https://www.linkedin.com/in/ahmet-yasir-duman-03b689256) | [GitHub](https://github.com/ahmetduman23))
 
-**AquaSentinel AI**, Marmara Denizi'nde müsilaj (deniz salyası) oluşumunu erken aşamada tespit etmek ve risk değerlendirmesi yapmak amacıyla geliştirilen yapay zeka tabanlı bir erken uyarı sistemidir.
 
-Sistem, **Copernicus Sentinel-3** uydu verilerini (Klorofil-a konsantrasyonu ve Deniz Yüzeyi Sıcaklığı - SST) otomatik olarak indirip işleyerek:
+## Ürün İsmi
 
-- 🛰️ Uydu verisi toplama ve ön işleme boru hattı
-- 🧠 Müsilaj risk endeksi hesaplayan AI modeli (Sprint 2)
-- 🤖 Risk raporları üreten AI Agent mimarisi (Sprint 2)
-- 🗺️ Harita tabanlı web dashboard (Sprint 3)
+--AquaSentinel AI--
 
-bileşenlerinden oluşmaktadır.
+## Ürün Açıklaması
 
----
+- AquaSentinel AI, Marmara Denizi'ndeki müsilaj oluşumunu yapay zeka ve uydu verileriyle erken tespit eden bir uyarı sistemidir. Deniz yüzeyi sıcaklığı (SST) ve klorofil-a verilerini otomatik olarak toplayıp analiz ederek risk tahmini yapar ve yetkilileri uyarır.
 
-## 🎯 Ürün Bilgileri
+## Ürün Özellikleri
 
-| Alan | Detay |
-|------|-------|
-| **Ürün İsmi** | AquaSentinel AI |
-| **Takım İsmi** | Takım 48 |
-| **Product Backlog** | [Sprint 1 Raporu](doc/sprint1_review.md) |
+- Sentinel-3 uydu verilerini otomatik indirme (CDSE API)
+- Bulut, kara ve hatalı veri maskeleme (Kalite Kontrol)
+- Klorofil-a ve Deniz Yüzeyi Sıcaklığı (SST) zaman serisi verisi oluşturma
+- Otomatik trend analizi grafikleri üretme
 
-### Ürün Açıklaması
+## Hedef Kitle
 
-AquaSentinel AI, Marmara Denizi'ndeki müsilaj oluşumunu Copernicus Sentinel-3 uydu verileri ve yapay zeka modelleri kullanarak erken aşamada tespit eden bir erken uyarı sistemidir. Sistem, deniz yüzeyi sıcaklığı (SST) ve klorofil-a yoğunluğu verilerini otomatik olarak toplayıp analiz ederek, müsilaj riskini önceden tahmin eder ve karar vericilere harita tabanlı bir dashboard üzerinden uyarılar sunar.
+- Çevre, Şehircilik ve İklim Değişikliği Bakanlığı
+- Belediyelerin çevre ve denizcilik birimleri
+- Denizcilik ve balıkçılık sektörü
+- Deniz bilimleri araştırmacıları ve akademisyenler
 
-### Ürün Özellikleri
+## Product Backlog URL
 
-**MVP (Sprint 1-2)**
-- Sentinel-3 OLCI/SLSTR uydu verisi otomatik indirme (CDSE OData API)
-- Marmara Denizi bölgesi için veri filtreleme ve ön işleme
-- Bulut/kara/hatalı piksel maskeleme ve kalite kontrolü
-- Klorofil-a ve SST zaman serisi oluşturma
-- Müsilaj Risk Endeksi hesaplama (AI model — Sprint 2)
-- AI Agent ile risk raporu üretimi (Sprint 2)
-
-**Ek Özellikler (Sprint 3)**
-- Harita tabanlı (GIS) web dashboard
-- Gerçek zamanlı erken uyarı sistemi
-- Tarihsel trend analizi ve görselleştirme
-- Canlıya alınabilir ürün
-
-### Hedef Kitle
-
-- Çevre ve Şehircilik Bakanlığı
-- Belediyelerin çevre birimleri
-- Denizcilik ve su ürünleri sektörü
-- Araştırmacılar
+[Miro Backlog Board](https://miro.com/app/board/uXjVH7tYdQM=/?share_link_id=616030223380)
 
 ---
 
-## 🏗️ Mimari Yapı
+# Sprint 1
 
-```
-aquasentinel-ai/
-├── data/
-│   ├── raw/                         # Ham uydu verileri (NetCDF/TIF)
-│   └── processed/                   # İşlenmiş zaman serisi (CSV)
-├── src/
-│   ├── data/
-│   │   ├── sentinel_downloader.py   # CDSE OData API veri indirme
-│   │   └── preprocessor.py          # Kalite filtreleme ve istatistik
-│   ├── agents/
-│   │   └── base_agent.py            # AI Agent temel sınıfı
-│   └── utils.py                     # Loglama ve yardımcı fonksiyonlar
-├── tests/                           # Birim testleri (pytest)
-├── doc/                             # Proje dokümantasyonu
-├── .env.example                     # Ortam değişkeni şablonu
-├── requirements.txt                 # Python bağımlılıkları
-└── README.md                        # Bu dosya
-```
+**Backlog düzeni ve Story seçimleri**: Backlog'umuz öncelikli işlere göre sıralanmıştır. Story'ler, sprint kapasitesini aşmayacak şekilde seçilmiş ve daha küçük alt görevlere (task) bölünmüştür. Miro panosunda mavi kartlar story'leri, turuncu kartlar ise görevleri temsil eder.
 
----
+**Puanlama Mantığı**: Sprint 1 toplam eforu 19 SP (Story Point) olarak planlanıp tamamlanmıştır. Puanlar iş yüküne göre verilmiştir:
+- Yüksek eforlu işler (CDSE API entegrasyonu, veri ön işleme): **5'er SP**
+- Temel kurulum ve test işleri (Proje yapısı, Base Agent, birim testleri): **3'er SP**
 
-## 🚀 Kurulum ve Çalıştırma
+**Reddedilen İşler (Rejected Backlog)**:
+- **Sentinel-2 Verisi**: Bulutluluk oranı yüksek olduğu için yerine Sentinel-3 tercih edildi.
+- **SQL Veritabanı**: İlk aşamada sistemin hafif ve hızlı olması için SQL yerine doğrudan `.csv` dosyaları kullanıldı.
 
-### Ön Gereksinimler
+**Sprint 1 Hedefi**: Marmara Denizi için Sentinel-3 uydu verilerini otomatik indiren, hatalı ve bulutlu pikselleri temizleyen ve zaman serisi veri seti oluşturan altyapının kurulması.
 
-- Python 3.10 veya üstü
-- pip (Python paket yöneticisi)
-- Git
+**Sprint 1 User Stories**:
+- **US-101 (3 SP)**: Modüler proje klasör yapısının (`src/`, `tests/`) kurulması. (✅ Done)
+- **US-102 (5 SP)**: Sentinel-3 uydu verisi indirme modülünün geliştirilmesi. (✅ Done)
+- **US-103 (5 SP)**: Bulut/kara maskeleme ve veri temizleme modülünün yazılması. (✅ Done)
+- **US-104 (3 SP)**: AI Agent temel (Base Agent) sınıfının oluşturulması. (✅ Done)
+- **US-105 (3 SP)**: Veri akışı için en az 39 adet birim testinin yazılması. (✅ Done)
 
-### Adım 1: Depoyu Klonlayın
+**Sprint Backlog Tablosu**: 
 
-```bash
-git clone https://github.com/sametozkok/YZTA_BOOTCAMP_GRUP48.git
-cd aquasentinel-ai
-```
+![Miro Backlog Board](images/miro_backlog.png)
 
-### Adım 2: Sanal Ortam Oluşturun
+- **Daily Scrum**: Mezuniyet, bitirme projesi ve staj yoğunlukları nedeniyle görüşmelerimiz WhatsApp üzerinden yazılı olarak yapılmıştır. 
 
-```bash
-# Windows
-python -m venv venv
-venv\Scripts\activate
+![Daily Scrum](images/daily_scrum.png)
 
-# macOS / Linux
-python3 -m venv venv
-source venv/bin/activate
-```
+![Daily Scrum 2](images/daily_scrum_2.png)
 
-### Adım 3: Bağımlılıkları Yükleyin
+- **Sprint board update**: Sprint 1 sonundaki tüm görevlerin tamamlandığını gösteren panomuz:
 
-```bash
-pip install -r requirements.txt
-```
+![Sprint Board Update](images/sprint_board_update.png)
 
-### Adım 4: Ortam Değişkenlerini Ayarlayın
+- **Ürün Durumu**: Sentinel-3 verilerini otomatik indiren veri akışı kuruldu. Ham veriler bulut ve karadan temizlenerek `marmara_time_series.csv` dosyasına kaydedildi. Ayrıca `src/visualization.py` ile bu verilerin otomatik trend grafiği üretildi.
 
-```bash
-# .env.example dosyasını .env olarak kopyalayın
-copy .env.example .env    # Windows
-cp .env.example .env      # macOS / Linux
+![Marmara Denizi Zaman Serisi Trend Analizi Grafiği](images/marmara_trends.png)
 
-# .env dosyasını açıp CDSE kimlik bilgilerinizi girin
-# Hesap oluşturmak için: https://dataspace.copernicus.eu/
-```
+- **Sprint Review**: Veri indirme, maskeleme, temizleme modülleri ile AI Agent iskelet yapısının çalıştığı doğrulandı. Hazırlanan zaman serisi veri setinin Sprint 2'de eğitilecek yapay zeka modeline beslenmesine karar verildi.
 
-### Adım 5: Testleri Çalıştırın
-
-```bash
-python -m pytest tests/ -v
-```
+- **Sprint Retrospective**: Yoğun takvimimize rağmen hedeflerimize ulaştık. API indirme süreci yavaş olduğundan sahte (mock) veri modu ekleyerek testleri hızlandırdık. Gelecek sprintte işleri zamana daha dengeli yaymayı ve haftada 1-2 kez kısa canlı toplantı yapmayı kararlaştırdık.
 
 ---
 
-## 💻 Kullanım Örnekleri
+# Sprint 2
 
-### Mock Veri ile Hızlı Başlangıç (API Hesabı Gerekmez)
-
-```python
-from src.data.sentinel_downloader import SentinelDataDownloader
-from src.data.preprocessor import MarmaraDataPreprocessor
-
-# 1. Mock modda veri indir (API hesabı olmadan)
-downloader = SentinelDataDownloader()
-mock_file = downloader.download_marmara_data(
-    start_date="2024-06-01",
-    end_date="2024-06-15",
-    output_dir="data/raw",
-)
-print(f"Mock veri oluşturuldu: {mock_file}")
-
-# 2. Gerçekçi simüle zaman serisi üret
-processor = MarmaraDataPreprocessor(processed_dir="data/processed")
-csv_path = processor.generate_mock_data(
-    start_date="2024-01-01",
-    end_date="2024-12-31",
-    interval_days=3,
-)
-print(f"Zaman serisi: {csv_path}")
-```
-
-### Gerçek Uydu Verisi İndirme (CDSE Hesabı Gerekir)
-
-```python
-from src.data.sentinel_downloader import SentinelDataDownloader
-
-# .env dosyasında CDSE_USERNAME ve CDSE_PASSWORD tanımlı olmalı
-downloader = SentinelDataDownloader()
-
-# Marmara Denizi için Sentinel-3 OLCI (Klorofil-a) verisi
-result = downloader.download_marmara_data(
-    start_date="2024-06-01",
-    end_date="2024-06-15",
-    output_dir="data/raw",
-    product_type="chlorophyll",  # veya "sst"
-)
-```
+- **Backlog düzeni ve Story seçimleri**: 
+- **Daily Scrum**: 
+- **Sprint board update**: 
+- **Ürün Durumu**: 
+- **Sprint Review**: 
+- **Sprint Retrospective**: 
 
 ---
 
-## 📊 Bootcamp Sprint Planı & Durumu
+# Sprint 3
 
-| Sprint / Dönem | Odak Noktası | Yapılacak İşler (Task'ler) & Örnekler | Teslim Edilecekler | Durum |
-|---|---|---|---|:---:|
-| **Sprint 1**<br>*(19 Haz — 5 Tem)* | **Veri Boru Hattı & Altyapı** | • Sentinel API bağlantılarının kurulması.<br>• Marmara Denizi geçmiş müsilaj dönemlerine ait SST (Deniz Yüzeyi Sıcaklığı) verilerinin çekilmesi.<br>• Veri temizleme ve anomali tespiti altyapısı.<br>• Slack Daily Scrum düzeninin kurulması. | • GitHub Repo Açılışı<br>• README (Takım/Ürün vizyonu)<br>• Miro Backlog Düzeni<br>• [Sprint 1 Raporu](doc/sprint1_review.md) | ✅ **Tamamlandı** |
-| **Sprint 2**<br>*(6 Tem — 19 Tem)* | **AI Model & Agent Geliştirme** | • Sıcaklık artış hızı ve klorofil yoğunluğuna göre "Müsilaj Risk Endeksi" hesaplayan modelin eğitilmesi.<br>• Risk raporları hazırlayacak AI Agent mimarisinin (hafıza ve araç entegrasyonu) kurgulanması.<br>• Temiz kod mimarisinin kurulması. | • Model Performans Raporu<br>• Güncellenmiş Sprint Board<br>• Daily Scrum Notları | 🔜 **Planlanıyor** |
-| **Sprint 3**<br>*(20 Tem — 2 Ağu)* | **Entegrasyon, Dağıtım & Kapanış** | • AI Agent ile tahmin modelinin orkestre edilmesi.<br>• Harita tabanlı (GIS) basit bir web arayüzünün (dashboard) canlıya alınması.<br>• Kodun refactor edilmesi (Clean Code).<br>• 3 dakikalık YouTube proje videosunun çekilmesi. | • Canlı Ürün Linki<br>• 3 Dk YouTube Videosu<br>• Ürün Teslim Formu | ⏳ **Beklemede** |
-
-### Sprint 1 Teslim Edilenler
-
-- ✅ [Sprint 1 Raporu](doc/sprint1_review.md)
-- ✅ Sentinel-3 CDSE OData API bağlantısı (gerçek API doğrulandı)
-- ✅ Marmara Denizi SST ve Klorofil-a veri çekme altyapısı
-- ✅ Veri temizleme (bulut/kara/hatalı piksel maskeleme)
-- ✅ Zaman serisi oluşturma (CSV)
-- ✅ AI Agent iskelet yapısı (Sprint 2 hazırlığı)
-- ✅ 39 birim testi (hepsi geçiyor)
-
-
----
-
-## 🛰️ Veri Kaynakları
-
-| Kaynak | Ürün | Parametre | Çözünürlük |
-|--------|------|-----------|------------|
-| Sentinel-3 OLCI | OL_2_WFR___ | Klorofil-a (mg/m³) | 300m |
-| Sentinel-3 SLSTR | SL_2_LST___ | Deniz Yüzeyi Sıcaklığı (°C) | 1km |
-
-**API:** [Copernicus Dataspace Ecosystem (CDSE)](https://dataspace.copernicus.eu/)
-
----
-
-## 🧪 Test
-
-```bash
-# Tüm testleri çalıştır
-python -m pytest tests/ -v
-
-# Sadece downloader testleri
-python -m pytest tests/test_downloader.py -v
-
-# Sadece preprocessor testleri
-python -m pytest tests/test_preprocessor.py -v
-```
-
----
-
-## 
-
-Bu proje, Yapay Zeka ve Teknoloji Akademisi Bootcamp 2026 kapsamında geliştirilmektedir.
-
----
-
-## 👥 Takım
-
-| Rol | İsim |
-|-----|------|
-| **Product Owner** | Samet Özkök |
-| **Scrum Master** | Betül Danışmaz |
-| **Team Member / Developer** | Selma Bener |
-| **Team Member / Developer** | Ahmet Yasir Duman |
-| **Team Member / Developer** | Fırat Kaan Çıkar |
+- **Backlog düzeni ve Story seçimleri**: 
+- **Daily Scrum**: 
+- **Sprint board update**: 
+- **Ürün Durumu**: 
+- **Sprint Review**: 
+- **Sprint Retrospective**: 
