@@ -6,11 +6,11 @@ Takım 48
 
 ## Takım Elemanları
 
-- Samet Özkök: Product Owner ([LinkedIn](#) | [GitHub](https://github.com/sametozkok))
-- Betül Danışmaz: Scrum Master ([LinkedIn](#) | [GitHub](https://github.com/betuldanismaz))
+- Samet Özkök: Product Owner ([LinkedIn](https://www.linkedin.com/in/sametozkok) | [GitHub](https://github.com/sametozkok))
+- Betül Danışmaz: Scrum Master ([LinkedIn](https://www.linkedin.com/in/betuldanismaz) | [GitHub](https://github.com/betuldanismaz))
 - Fırat Kaan Çıkar: Team Member/Developer ([LinkedIn](https://www.linkedin.com/in/fkaancikar) | [GitHub](https://github.com/fkaanc))
-- Selma Bener: Team Member/Developer ([LinkedIn](#) | [GitHub](https://github.com/selmaabe))
-- Ahmet Yasir Duman: Team Member/Developer ([LinkedIn](https://www.linkedin.com/in/ahmet-yasir-duman-03b689256) | [GitHub](https://github.com/ahmetduman23))
+- Selma Bener: Team Member/Developer ([LinkedIn](https://www.linkedin.com/in/selma-bener-a28924251?utm_source=share_via&utm_content=profile&utm_medium=member_ios) | [GitHub](https://github.com/selmaabe))
+- Ahmet Yasir Duman: Team Member/Developer ([LinkedIn](www.linkedin.com/in/ahmetyasirduman) | [GitHub](https://github.com/ahmetduman23))
 
 
 ## Ürün İsmi
