@@ -23,7 +23,8 @@ class TestSentinelDataDownloaderInit:
 
     def test_init_without_credentials_enables_mock_mode(self):
         """CDSE kimlik bilgileri yoksa mock mod aktif olmalı."""
-        with patch.dict(os.environ, {}, clear=True):
+        with patch.dict(os.environ, {}, clear=True), \
+             patch("src.data.sentinel_downloader.load_dotenv"):
             downloader = SentinelDataDownloader()
             assert downloader._mock_mode is True
 
@@ -60,15 +61,15 @@ class TestBuildQuery:
     def test_build_query_sst(self):
         """SST sorgusu doğru ürün tipini içermeli."""
         query = self.downloader._build_query("2024-06-01", "2024-06-15", "sst")
-        assert "SL_2_LST___" in query
+        assert "SL_2_WST___" in query
 
     def test_build_query_contains_marmara_bbox(self):
-        """Sorgu Marmara Denizi bounding box'ını içermeli."""
+        """Sorgu İzmit Körfezi bounding box'ını içermeli."""
         query = self.downloader._build_query("2024-06-01", "2024-06-15", "chlorophyll")
-        assert "26.5" in query
-        assert "40.0" in query
-        assert "30.0" in query
-        assert "41.5" in query
+        assert "29.20" in query
+        assert "40.65" in query
+        assert "29.95" in query
+        assert "40.78" in query
 
     def test_build_query_invalid_product_type_raises(self):
         """Geçersiz ürün tipi ValueError fırlatmalı."""
@@ -154,7 +155,8 @@ class TestGetAvailableProducts:
 
     def test_mock_mode_returns_mock_products(self):
         """Mock modda ürün listesi mock olarak döndürülmeli."""
-        with patch.dict(os.environ, {}, clear=True):
+        with patch.dict(os.environ, {}, clear=True), \
+             patch("src.data.sentinel_downloader.load_dotenv"):
             downloader = SentinelDataDownloader()
             products = downloader.get_available_products("2024-06-01", "2024-06-15")
             assert len(products) == 1

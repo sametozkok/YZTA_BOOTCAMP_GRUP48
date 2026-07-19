@@ -127,7 +127,11 @@ class MarmaraDataPreprocessor:
 
             for var_name in chl_var_names:
                 if var_name in variables:
-                    data = np.array(dataset.variables[var_name][:])
+                    var_val = dataset.variables[var_name][:]
+                    if isinstance(var_val, np.ma.MaskedArray):
+                        data = var_val.filled(np.nan).astype(np.float64)
+                    else:
+                        data = np.array(var_val, dtype=np.float64)
                     param_type = "chlorophyll_a"
                     logger.info("Klorofil-a verisi bulundu: %s", var_name)
                     break
@@ -135,7 +139,11 @@ class MarmaraDataPreprocessor:
             if data is None:
                 for var_name in sst_var_names:
                     if var_name in variables:
-                        data = np.array(dataset.variables[var_name][:])
+                        var_val = dataset.variables[var_name][:]
+                        if isinstance(var_val, np.ma.MaskedArray):
+                            data = var_val.filled(np.nan).astype(np.float64)
+                        else:
+                            data = np.array(var_val, dtype=np.float64)
                         param_type = "sst"
                         logger.info("SST verisi bulundu: %s", var_name)
                         break
@@ -161,7 +169,7 @@ class MarmaraDataPreprocessor:
             dataset.close()
 
             # Kalite maskesi uygula
-            clean_data = self._apply_quality_mask(data, flags)
+            clean_data = self._apply_quality_mask(data, flags, param_type)
 
             # İstatistik hesapla
             result = self._compute_statistics(clean_data, date_str, param_type)
@@ -219,7 +227,7 @@ class MarmaraDataPreprocessor:
             param_type = self._detect_parameter_type(file_path.name)
 
             # Kalite maskesi (basit: negatif ve aşırı değerler)
-            clean_data = self._apply_quality_mask(data, flags=None)
+            clean_data = self._apply_quality_mask(data, flags=None, param_type=param_type)
 
             # İstatistik hesapla
             result = self._compute_statistics(clean_data, date_str, param_type)
@@ -270,7 +278,7 @@ class MarmaraDataPreprocessor:
                 quality_flags = (
                     mock_data["quality_flags"] if "quality_flags" in mock_data else None
                 )
-                clean_chl = self._apply_quality_mask(chl_data, quality_flags)
+                clean_chl = self._apply_quality_mask(chl_data, quality_flags, "chlorophyll_a")
                 result = self._compute_statistics(clean_chl, date_str, "chlorophyll_a")
                 if result:
                     self._append_to_timeseries(**result)
@@ -282,7 +290,7 @@ class MarmaraDataPreprocessor:
                 quality_flags = (
                     mock_data["quality_flags"] if "quality_flags" in mock_data else None
                 )
-                clean_sst = self._apply_quality_mask(sst_data, quality_flags)
+                clean_sst = self._apply_quality_mask(sst_data, quality_flags, "sst")
                 result = self._compute_statistics(clean_sst, date_str, "sst")
                 if result:
                     self._append_to_timeseries(**result)
@@ -299,6 +307,7 @@ class MarmaraDataPreprocessor:
         self,
         data: np.ndarray,
         flags: Optional[np.ndarray] = None,
+        param_type: str = "unknown",
     ) -> np.ndarray:
         """Kalite flag'lerine göre hatalı pikselleri maskeler.
 
@@ -313,6 +322,7 @@ class MarmaraDataPreprocessor:
         Args:
             data: Ham piksel değerleri (2D NumPy array).
             flags: Kalite flag matrisi (opsiyonel).
+            param_type: Parametre tipi ('chlorophyll_a', 'sst' veya 'unknown').
 
         Returns:
             np.ndarray: Temizlenmiş veri matrisi (hatalı pikseller NaN).
@@ -337,9 +347,22 @@ class MarmaraDataPreprocessor:
                 np.sum(invalid_pixels),
             )
 
-        # Fiziksel sınır kontrolü — aşırı değerleri temizle
-        clean_data[clean_data < -2.0] = np.nan     # SST alt sınır
-        clean_data[clean_data > 100.0] = np.nan     # Klorofil üst sınır
+        # Kelvin -> Celsius dönüşümü (Sadece deniz sıcaklığı (sst) için geçerlidir)
+        if param_type == "sst":
+            valid_values = clean_data[~np.isnan(clean_data)]
+            if valid_values.size > 0:
+                median_val = np.nanmedian(clean_data)
+                if median_val > 150.0:
+                    logger.info("Kelvin -> Celsius donusumu yapiliyor (-273.15)")
+                    clean_data = clean_data - 273.15
+
+        # Fiziksel sınır kontrolü — parametre tipine göre uyarlanmış
+        if param_type == "sst":
+            clean_data[clean_data < -2.0] = np.nan     # SST alt sınır (-2 °C)
+            clean_data[clean_data > 45.0] = np.nan      # SST üst sınır (45 °C)
+        else:
+            clean_data[clean_data < 0.0] = np.nan       # Klorofil veya diğer parametreler negatif olamaz
+            clean_data[clean_data > 100.0] = np.nan      # Klorofil üst sınır (100 mg/m³)
 
         nan_count = np.sum(np.isnan(clean_data))
         logger.info(
@@ -559,12 +582,21 @@ class MarmaraDataPreprocessor:
         Returns:
             str: YYYY-MM-DD formatında tarih.
         """
+        import re
         # Önce metadata'dan dene
         for attr in ["time_coverage_start", "start_date", "date_created"]:
             try:
                 date_val = getattr(dataset, attr, None)
                 if date_val:
-                    return str(date_val)[:10]
+                    date_str = str(date_val)
+                    # YYYY-MM-DD desenini ara
+                    match = re.search(r"(\d{4})-(\d{2})-(\d{2})", date_str)
+                    if match:
+                        return f"{match.group(1)}-{match.group(2)}-{match.group(3)}"
+                    # YYYYMMDD desenini ara (örn. 20210625T235056)
+                    match = re.search(r"(\d{4})(\d{2})(\d{2})", date_str)
+                    if match:
+                        return f"{match.group(1)}-{match.group(2)}-{match.group(3)}"
             except (AttributeError, TypeError):
                 continue
 

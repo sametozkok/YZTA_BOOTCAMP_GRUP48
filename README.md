@@ -43,38 +43,38 @@ Takım 48
 
 # Sprint 1
 
-**Backlog düzeni ve Story seçimleri**: Backlog'umuz öncelikli işlere göre sıralanmıştır. Story'ler, sprint kapasitesini aşmayacak şekilde seçilmiş ve daha küçük alt görevlere (task) bölünmüştür. Miro panosunda mavi kartlar story'leri, turuncu kartlar ise görevleri temsil eder.
+- **Backlog düzeni ve Story seçimleri**: Backlog'umuz öncelikli işlere göre sıralanmıştır. Story'ler, sprint kapasitesini aşmayacak şekilde seçilmiş ve daha küçük alt görevlere (task) bölünmüştür. Miro panosunda mavi kartlar story'leri, turuncu kartlar ise görevleri temsil eder.
 
-**Puanlama Mantığı**: Sprint 1 toplam eforu 19 SP (Story Point) olarak planlanıp tamamlanmıştır. Puanlar iş yüküne göre verilmiştir:
-- Yüksek eforlu işler (CDSE API entegrasyonu, veri ön işleme): **5'er SP**
-- Temel kurulum ve test işleri (Proje yapısı, Base Agent, birim testleri): **3'er SP**
+    - **Puanlama Mantığı**: Sprint 1 toplam eforu 19 SP (Story Point) olarak planlanıp tamamlanmıştır. Puanlar iş yüküne göre verilmiştir:
+        - Yüksek eforlu işler (CDSE API entegrasyonu, veri ön işleme): **5'er SP**
+        - Temel kurulum ve test işleri (Proje yapısı, Base Agent, birim testleri): **3'er SP**
 
-**Reddedilen İşler (Rejected Backlog)**:
-- **Sentinel-2 Verisi**: Bulutluluk oranı yüksek olduğu için yerine Sentinel-3 tercih edildi.
-- **SQL Veritabanı**: İlk aşamada sistemin hafif ve hızlı olması için SQL yerine doğrudan `.csv` dosyaları kullanıldı.
+    - **Reddedilen İşler (Rejected Backlog)**:
+        - **Sentinel-2 Verisi**: Bulutluluk oranı yüksek olduğu için yerine Sentinel-3 tercih edildi.
+        - **SQL Veritabanı**: İlk aşamada sistemin hafif ve hızlı olması için SQL yerine doğrudan `.csv` dosyaları kullanıldı.
 
-**Sprint 1 Hedefi**: Marmara Denizi için Sentinel-3 uydu verilerini otomatik indiren, hatalı ve bulutlu pikselleri temizleyen ve zaman serisi veri seti oluşturan altyapının kurulması.
+    - **Sprint 1 Hedefi**: Marmara Denizi için Sentinel-3 uydu verilerini otomatik indiren, hatalı ve bulutlu pikselleri temizleyen ve zaman serisi veri seti oluşturan altyapının kurulması.
 
-**Sprint 1 User Stories**:
-- **US-101 (3 SP)**: Modüler proje klasör yapısının (`src/`, `tests/`) kurulması. (✅ Done)
-- **US-102 (5 SP)**: Sentinel-3 uydu verisi indirme modülünün geliştirilmesi. (✅ Done)
-- **US-103 (5 SP)**: Bulut/kara maskeleme ve veri temizleme modülünün yazılması. (✅ Done)
-- **US-104 (3 SP)**: AI Agent temel (Base Agent) sınıfının oluşturulması. (✅ Done)
-- **US-105 (3 SP)**: Veri akışı için en az 39 adet birim testinin yazılması. (✅ Done)
+    - **Sprint 1 User Stories**:
+        - **US-101 (3 SP)**: Modüler proje klasör yapısının (`src/`, `tests/`) kurulması. (✅ Done)
+        - **US-102 (5 SP)**: Sentinel-3 uydu verisi indirme modülünün geliştirilmesi. (✅ Done)
+        - **US-103 (5 SP)**: Bulut/kara maskeleme ve veri temizleme modülünün yazılması. (✅ Done)
+        - **US-104 (3 SP)**: AI Agent temel (Base Agent) sınıfının oluşturulması. (✅ Done)
+        - **US-105 (3 SP)**: Veri akışı için en az 39 adet birim testinin yazılması. (✅ Done)
 
-**Sprint Backlog Tablosu**: 
+- **Sprint Backlog Tablosu**: 
 
-![Miro Backlog Board](images/miro_backlog.png)
+![Miro Backlog Board - Sprint 1](images/miro_backlog_sprint1.png)
 
 - **Daily Scrum**: Mezuniyet, bitirme projesi ve staj yoğunlukları nedeniyle görüşmelerimiz WhatsApp üzerinden yazılı olarak yapılmıştır. 
 
-![Daily Scrum](images/daily_scrum.png)
+![Daily Scrum - Sprint 1](images/daily_scrum_sprint1.png)
 
-![Daily Scrum 2](images/daily_scrum_2.png)
+![Daily Scrum 2 - Sprint 1](images/daily_scrum2_sprint1.png)
 
-- **Sprint board update**: Sprint 1 sonundaki tüm görevlerin tamamlandığını gösteren panomuz:
+- **Sprint Board Update**: Sprint 1 sonundaki tüm görevlerin tamamlandığını gösteren panomuz:
 
-![Sprint Board Update](images/sprint_board_update.png)
+![Sprint Board Update - Sprint 1](images/sprint_board_update_sprint1.png)
 
 - **Ürün Durumu**: Sentinel-3 verilerini otomatik indiren veri akışı kuruldu. Ham veriler bulut ve karadan temizlenerek `marmara_time_series.csv` dosyasına kaydedildi. Ayrıca `src/visualization.py` ile bu verilerin otomatik trend grafiği üretildi.
 
@@ -88,12 +88,50 @@ Takım 48
 
 # Sprint 2
 
-- **Backlog düzeni ve Story seçimleri**: 
-- **Daily Scrum**: 
-- **Sprint board update**: 
-- **Ürün Durumu**: 
-- **Sprint Review**: 
-- **Sprint Retrospective**: 
+- **Backlog düzeni ve Story seçimleri**: Sprint 2 kapsamında yapay zeka modelinin eğitilmesi, AI Agent mimarisinin (veri analizi, risk tahmini ve raporlama ajanları) kurulması ve orkestrasyonu hedeflenmiştir. 
+  - **Toplam Planlanan Efor**: 24 SP (Story Point)
+  - **Seçilen Kullanıcı Hikayeleri (User Stories)**:
+    - **US-201 (8 SP)**: Sıcaklık artış hızı (SST gradyanı) ve klorofil yoğunluğuna göre "Müsilaj Risk Endeksi" hesaplayan makine öğrenmesi modelinin eğitilmesi ve kaydedilmesi. (Alt Görevler: Veri setinin hazırlanması (2 SP), korelasyon analizleri (2 SP) ve biyolojik eşiklerin belirlenmesi (2 SP)).
+    - **US-202 (5 SP)**: `DataAnalysisAgent` ve `MucilageRiskAgent` kurgulanması, hafıza (memory) ve veri analiz araçlarının (tools) entegrasyonu.
+    - **US-203 (5 SP)**: Gemini API ve çevrimdışı şablon destekli çalışan, detaylı risk raporları üreten `ReportingAgent` entegrasyonu.
+    - **US-204 (3 SP)**: Birim ve entegrasyon testlerinin (`tests/test_model.py`, `tests/test_agents.py`) yazılması ve doğrulanması.
+    - **US-205 (3 SP)**: Reponun temiz kod mimarisine göre refaktör edilmesi ve orkestrasyon betiğinin (`run_sprint2.py`) hazırlanması.
+
+- **Sprint Backlog Tablosu**: 
+
+![Miro Backlog Board - Sprint 2](images/miro_backlog_sprint2.png)
+
+- **Daily Scrum**: Sprint 2 boyunca gerçekleştirilen toplantılar ve planlanması:
+
+![Daily Scrum - Sprint 2](images/daily_scrum_sprint2.jpeg)
+
+![Daily Scrum 2 - Sprint 2](images/daily_scrum2_sprint2.jpeg)
+
+![Daily Scrum 3 - Sprint 2](images/daily_scrum3_sprint2.png)
+
+![Daily Scrum 4 - Sprint 2](images/daily_scrum4_sprint2.png)
+
+---
+
+- **Sprint Board Update**: Sprint 2 sonundaki Miro Backlog panomuzun güncel görünümü:
+
+![Miro Sprint 2 Sprint Board Update](images/sprint2_board_update.png)
+
+
+---
+
+- **Ürün Durumu**: Random Forest Classifier kullanılarak eğitilen müsilaj risk modeli **%99.04 doğruluk** oranına ulaşmıştır. Modelin en önemli girdisi Deniz Yüzeyi Sıcaklığı (%48.29) ve klorofil artış hızıdır. `DataAnalysisAgent`, `MucilageRiskAgent` ve `ReportingAgent` başarıyla orkestre edilmiştir.
+
+![Model Performans Grafikleri](images/model_performance.png)
+
+- **Sprint Review**:
+    - ML modeli (%99.04 accuracy) ve 3 ajanın (Analiz, Risk, Raporlama) tam orkestrasyonu tamamlandı.
+    - Sprint 3'te CBS (GIS) harita paneli ve web arayüzü entegrasyonuna karar verildi.
+
+- **Sprint Retrospective**:
+    - **İyi Gitti**: Model ve ajan yapıları hızla kuruldu; Gemini API fallback mekanizması sistemi sağlamlaştırdı.
+    - **Geliştirilebilir**: API kurulum süreci daha erken planlanabilirdi; test kapsamı paralelde artırılmalı.
+    - **Aksiyon**: Web dashboard taslağı ve ajan entegrasyon API'leri Sprint 3'e taşındı.
 
 ---
 

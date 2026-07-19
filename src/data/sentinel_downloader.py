@@ -44,9 +44,9 @@ class SentinelDataDownloader:
         PRODUCT_TYPES: Desteklenen Sentinel-3 ürün tipleri.
     """
 
-    # Marmara Denizi Bounding Box (WKT)
+    # İzmit Körfezi Bounding Box (WKT) — 2021 müsilaj krizinde en çok etkilenen bölge
     MARMARA_BBOX: str = (
-        "POLYGON((26.5 40.0, 30.0 40.0, 30.0 41.5, 26.5 41.5, 26.5 40.0))"
+        "POLYGON((29.20 40.65, 29.95 40.65, 29.95 40.78, 29.20 40.78, 29.20 40.65))"
     )
 
     # CDSE API Endpoint'leri
@@ -59,7 +59,7 @@ class SentinelDataDownloader:
     # Desteklenen ürün tipleri
     PRODUCT_TYPES: dict[str, str] = {
         "chlorophyll": "OL_2_WFR___",
-        "sst": "SL_2_LST___",
+        "sst": "SL_2_WST___",
     }
 
     def __init__(self) -> None:
@@ -214,9 +214,21 @@ class SentinelDataDownloader:
         try:
             logger.info("İndirme başlıyor: %s", product_name)
 
-            with requests.get(
-                download_url, headers=headers, stream=True, timeout=300
-            ) as response:
+            # CDSE redirects across subdomains strip the Authorization header in python requests.
+            # We handle the redirect manually to preserve the header.
+            response = requests.get(
+                download_url, headers=headers, stream=True, timeout=300, allow_redirects=False
+            )
+            
+            if response.status_code in (301, 302, 303, 307, 308):
+                redirect_url = response.headers.get("Location")
+                logger.info("Yönlendirme tespit edildi, kimlik bilgileri taşınıyor -> %s", redirect_url)
+                response.close()
+                response = requests.get(
+                    redirect_url, headers=headers, stream=True, timeout=300, allow_redirects=True
+                )
+            
+            with response:
                 response.raise_for_status()
 
                 total_size = int(response.headers.get("content-length", 0))
