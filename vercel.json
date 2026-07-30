@@ -1,7 +1,7 @@
 {
   "cleanUrls": true,
-  "routes": [
-    { "src": "/", "dest": "/src/frontend/index.html" },
-    { "src": "/(.*)", "dest": "/src/frontend/$1" }
+  "rewrites": [
+    { "source": "/", "destination": "/src/frontend/index.html" },
+    { "source": "/(.*)", "destination": "/src/frontend/$1" }
   ]
 }
