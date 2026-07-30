@@ -1,13 +1,6 @@
 models/
 notebooks/
-src/data_processing/
-src/models/
-src/agents/
-src/reporting/
 tests/
-*.py
-*.joblib
-*.csv
 requirements.txt
 setup.py
 pyproject.toml
