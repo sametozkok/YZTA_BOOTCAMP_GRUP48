@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaSentinel AI — Marmara Denizi Müsilaj Erken Uyarı Paneli</title>
+    <!-- Google Fonts: Inter & Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Leaflet GIS Map -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Top Header Navbar -->
+            <header class="top-header glass">
+                <div class="brand">
+                    <div class="logo-icon">🌊</div>
+                    <div class="brand-text">
+                        <h1>AquaSentinel AI</h1>
+                        <span>MARMARA DENİZİ MÜSİLAJ ERKEN UYARI PANELİ</span>
+                    </div>
+                </div>
+
+                <div class="header-actions">
+                    <button class="btn btn-primary" id="btn-quick-report">
+                        <i data-lucide="file-text"></i> Hızlı Rapor İndir
+                    </button>
+                </div>
+            </header>
+
+            <!-- Metrics Grid -->
+            <section class="metrics-grid">
+                <!-- Gauge Card -->
+                <div class="metric-card glass risk-card">
+                    <div class="card-header">
+                        <h3>Müsilaj Risk İndeksi</h3>
+                        <i data-lucide="alert-triangle" class="icon-danger"></i>
+                    </div>
+                    <div class="gauge-container">
+                        <svg class="gauge" viewBox="0 0 100 50">
+                            <path class="gauge-bg" d="M 10 50 A 40 40 0 0 1 90 50" fill="none" stroke-width="8"></path>
+                            <path class="gauge-fill" id="risk-gauge-fill" d="M 10 50 A 40 40 0 0 1 90 50" fill="none"
+                                stroke-width="8" stroke-dasharray="125.6" stroke-dashoffset="125.6"></path>
+                        </svg>
+                        <div class="gauge-value" id="risk-value-text">--%</div>
+                        <div class="gauge-label" id="risk-status-text">Analiz ediliyor...</div>
+                    </div>
+                </div>
+
+                <!-- Chlorophyll-a Card -->
+                <div class="metric-card glass">
+                    <div class="card-header">
+                        <h3>Klorofil-a (Chl-a)</h3>
+                        <i data-lucide="droplet" class="icon-chl"></i>
+                    </div>
+                    <div class="metric-value">
+                        <span id="chl-value-text">--.-</span>
+                        <span class="unit">mg/m³</span>
+                    </div>
+                    <div class="metric-trend" id="chl-trend">
+                        <span class="trend-indicator normal" id="chl-indicator-dot"></span>
+                        <span id="chl-status-desc">Veri bekleniyor...</span>
+                    </div>
+                </div>
+
+                <!-- SST Card -->
+                <div class="metric-card glass">
+                    <div class="card-header">
+                        <h3>Deniz Yüzeyi Sıcaklığı (SST)</h3>
+                        <i data-lucide="thermometer" class="icon-sst"></i>
+                    </div>
+                    <div class="metric-value">
+                        <span id="sst-value-text">--.-</span>
+                        <span class="unit">°C</span>
+                    </div>
+                    <div class="metric-trend" id="sst-trend">
+                        <span class="trend-indicator warning" id="sst-indicator-dot"></span>
+                        <span id="sst-status-desc">Veri bekleniyor...</span>
+                    </div>
+                </div>
+
+                <!-- Quality Card -->
+                <div class="metric-card glass">
+                    <div class="card-header">
+                        <h3>Veri Kalite Oranı</h3>
+                        <i data-lucide="shield-check" class="icon-quality"></i>
+                    </div>
+                    <div class="metric-value">
+                        <span id="quality-value-text">--%</span>
+                    </div>
+                    <div class="metric-trend">
+                        <i data-lucide="check-circle" class="icon-success"></i>
+                        <span id="quality-status-desc">Hatalı pikseller elendi.</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Map & Alert Content Row -->
+            <section class="content-row">
+                <!-- Interactive SVG Map -->
+                <div class="card glass map-card">
+                    <div class="card-title-container">
+                        <h3>Marmara Denizi Etkileşimli Gözlem Haritası</h3>
+                        <div class="map-controls">
+                            <button class="btn-toggle active" id="layer-chl">Klorofil-a</button>
+                            <button class="btn-toggle" id="layer-sst">SST (Sıcaklık)</button>
+                            <button class="btn-toggle" id="layer-risk">Risk Alanları</button>
+                        </div>
+                    </div>
+                    <div class="map-container" id="marmara-map"></div>
+                    <div class="region-selection-indicator">
+                        <i data-lucide="map-pin"></i> Seçili Bölge: <span id="selected-region-text"
+                            class="highlight">Tüm Marmara Denizi</span>
+                        <button class="btn btn-link btn-small" id="btn-reset-region"
+                            style="display:none;">Sıfırla</button>
+                    </div>
+                </div>
+
+                <!-- Alert Feed & AI Insights -->
+                <div class="alert-ai-container">
+                    <!-- AI Thought Process Box -->
+                    <div class="card glass ai-card" id="ai-logs">
+                        <div class="card-header">
+                            <h3><i data-lucide="cpu" class="icon-ai"></i> AI Agent Analiz Günlüğü</h3>
+                            <span class="agent-badge">ReportingAgent</span>
+                        </div>
+                        <div class="ai-thought-log" id="ai-thought-content">
+                            <!-- Populated dynamically -->
+                            <div class="log-entry system-msg">[SYSTEM] Model verileri okunuyor...</div>
+                        </div>
+                    </div>
+
+                    <!-- Alarm Logs -->
+                    <div class="card glass alarm-card">
+                        <div class="card-header">
+                            <h3>Erken Uyarı Alarmları</h3>
+                            <span class="badge alarm-count" id="active-alarm-count">0 Aktif</span>
+                        </div>
+                        <div class="alarm-feed-list" id="alarm-feed-content">
+                            <!-- Populated dynamically -->
+                            <div class="no-alarm-msg">Güvenli: Risk eşiğini aşan parametre bulunamadı.</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Time Series Charts Section -->
+            <section class="card glass chart-card" id="analytics">
+                <div class="card-header">
+                    <h3>Zaman Serisi Trend Analizi & Tahminleri</h3>
+                    <div class="chart-legend-custom">
+                        <span class="legend-item"><span class="dot-chl"></span> Klorofil-a</span>
+                        <span class="legend-item"><span class="dot-sst"></span> Deniz Sıcaklığı</span>
+                    </div>
+                </div>
+                <div class="chart-container">
+                    <canvas id="trendChart"></canvas>
+                </div>
+            </section>
+
+            <!-- Animation and Controller Panel -->
+            <section class="card glass controls-card" id="settings">
+                <div class="card-header">
+                    <h3>Zaman Serisi Oynatma Kontrolü & Simülasyon</h3>
+                </div>
+                <div class="timeline-controls-row">
+                    <button class="btn btn-icon" id="btn-play" title="Oynat/Durdur">
+                        <i data-lucide="play" id="play-icon"></i>
+                    </button>
+                    <div class="timeline-slider-container">
+                        <input type="range" min="0" max="100" value="0" class="slider" id="timeline-slider">
+                        <div class="timeline-dates">
+                            <span id="slider-start-date">--/--/--</span>
+                            <span id="slider-current-date" class="highlight">--/--/--</span>
+                            <span id="slider-end-date">--/--/--</span>
+                        </div>
+                    </div>
+                </div>
+                <hr class="divider">
+                <div class="simulation-tools">
+                    <h4>Test Araçları</h4>
+                    <div class="btn-group">
+                        <button class="btn btn-secondary" id="btn-gen-mock">
+                            <i data-lucide="refresh-cw"></i> Yeni Sahte Veri Üret
+                        </button>
+                        <button class="btn btn-secondary" id="btn-clear-cache">
+                            <i data-lucide="trash-2"></i> Zaman Serisini Sıfırla
+                        </button>
+                    </div>
+                    <p class="helper-text">"Yeni Sahte Veri Üret" butonu, sistemin arka planındaki mock veri üreticiyi
+                        çalıştırır ve verileri günceller.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Quick Report Modal -->
+    <div class="modal" id="report-modal">
+        <div class="modal-content glass">
+            <div class="modal-header">
+                <h2>🌊 AquaSentinel AI — Erken Uyarı Risk Raporu</h2>
+                <button class="btn-close" id="btn-close-modal">&times;</button>
+            </div>
+            <div class="modal-body" id="modal-report-body">
+                <!-- Report layout filled dynamically -->
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" id="btn-print-report">Yazdır / PDF Kaydet</button>
+                <button class="btn btn-primary" id="btn-close-modal-footer">Kapat</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>

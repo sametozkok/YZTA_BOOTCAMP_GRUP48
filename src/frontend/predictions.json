@@ -1,0 +1,4638 @@
+{
+  "2024-01-01": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.56,
+      "sst": 9.3
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.81,
+      "sst": 9.8
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.72,
+      "sst": 9.5
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.61,
+      "sst": 9.2
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.69,
+      "sst": 9.4
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.47,
+      "sst": 8.9
+    }
+  },
+  "2024-01-04": {
+    "all": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.25,
+      "sst": 8.8
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.81,
+      "sst": 9.3
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.62,
+      "sst": 9.0
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.37,
+      "sst": 8.7
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.56,
+      "sst": 8.9
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.06,
+      "sst": 8.4
+    }
+  },
+  "2024-01-07": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.22,
+      "sst": 10.7
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.77,
+      "sst": 11.2
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.59,
+      "sst": 10.9
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.34,
+      "sst": 10.5
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.53,
+      "sst": 10.8
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.04,
+      "sst": 10.1
+    }
+  },
+  "2024-01-10": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.97,
+      "sst": 10.4
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.86,
+      "sst": 10.9
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.56,
+      "sst": 10.6
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.17,
+      "sst": 10.2
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.46,
+      "sst": 10.5
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.67,
+      "sst": 9.9
+    }
+  },
+  "2024-01-13": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.26,
+      "sst": 10.2
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.83,
+      "sst": 10.7
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.64,
+      "sst": 10.4
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.39,
+      "sst": 10.0
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.58,
+      "sst": 10.3
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.07,
+      "sst": 9.7
+    }
+  },
+  "2024-01-16": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.75,
+      "sst": 9.7
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.08,
+      "sst": 10.2
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.97,
+      "sst": 9.9
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.82,
+      "sst": 9.5
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.93,
+      "sst": 9.8
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.63,
+      "sst": 9.2
+    }
+  },
+  "2024-01-19": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.21,
+      "sst": 10.3
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.21,
+      "sst": 10.9
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.88,
+      "sst": 10.5
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.43,
+      "sst": 10.1
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.77,
+      "sst": 10.4
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.88,
+      "sst": 9.8
+    }
+  },
+  "2024-01-22": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.68,
+      "sst": 11.4
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.44,
+      "sst": 11.9
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.19,
+      "sst": 11.6
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.85,
+      "sst": 11.1
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.11,
+      "sst": 11.5
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.43,
+      "sst": 10.8
+    }
+  },
+  "2024-01-25": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.37,
+      "sst": 11.7
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.99,
+      "sst": 12.3
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.78,
+      "sst": 11.9
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.51,
+      "sst": 11.4
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.71,
+      "sst": 11.8
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.16,
+      "sst": 11.1
+    }
+  },
+  "2024-01-28": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.8,
+      "sst": 11.5
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.61,
+      "sst": 12.0
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.34,
+      "sst": 11.7
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.98,
+      "sst": 11.2
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.25,
+      "sst": 11.6
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.53,
+      "sst": 10.9
+    }
+  },
+  "2024-01-31": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.19,
+      "sst": 11.9
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.18,
+      "sst": 12.5
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.85,
+      "sst": 12.2
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.41,
+      "sst": 11.7
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.74,
+      "sst": 12.0
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.86,
+      "sst": 11.3
+    }
+  },
+  "2024-02-03": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.01,
+      "sst": 12.2
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.91,
+      "sst": 12.8
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.61,
+      "sst": 12.4
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.21,
+      "sst": 11.9
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.51,
+      "sst": 12.3
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.7,
+      "sst": 11.6
+    }
+  },
+  "2024-02-06": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.2,
+      "sst": 11.9
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.19,
+      "sst": 12.5
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.86,
+      "sst": 12.1
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.42,
+      "sst": 11.7
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.75,
+      "sst": 12.0
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.87,
+      "sst": 11.3
+    }
+  },
+  "2024-02-09": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.29,
+      "sst": 13.1
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.32,
+      "sst": 13.8
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.97,
+      "sst": 13.4
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.52,
+      "sst": 12.9
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.86,
+      "sst": 13.3
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.95,
+      "sst": 12.5
+    }
+  },
+  "2024-02-12": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.42,
+      "sst": 13.1
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.51,
+      "sst": 13.8
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.14,
+      "sst": 13.4
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.66,
+      "sst": 12.8
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.02,
+      "sst": 13.2
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.06,
+      "sst": 12.4
+    }
+  },
+  "2024-02-15": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.95,
+      "sst": 15.0
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.27,
+      "sst": 15.8
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.83,
+      "sst": 15.3
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.24,
+      "sst": 14.7
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.69,
+      "sst": 15.2
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.51,
+      "sst": 14.3
+    }
+  },
+  "2024-02-18": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.77,
+      "sst": 14.0
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.02,
+      "sst": 14.7
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.6,
+      "sst": 14.3
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.05,
+      "sst": 13.7
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.46,
+      "sst": 14.1
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.35,
+      "sst": 13.3
+    }
+  },
+  "2024-02-21": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.03,
+      "sst": 14.6
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.85,
+      "sst": 15.3
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.24,
+      "sst": 14.9
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.44,
+      "sst": 14.3
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.04,
+      "sst": 14.7
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.43,
+      "sst": 13.9
+    }
+  },
+  "2024-02-24": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.97,
+      "sst": 14.4
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.31,
+      "sst": 15.1
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.86,
+      "sst": 14.7
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.27,
+      "sst": 14.1
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.72,
+      "sst": 14.5
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.53,
+      "sst": 13.7
+    }
+  },
+  "2024-02-27": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.02,
+      "sst": 15.4
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.38,
+      "sst": 16.2
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.93,
+      "sst": 15.7
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.32,
+      "sst": 15.1
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.77,
+      "sst": 15.6
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.57,
+      "sst": 14.7
+    }
+  },
+  "2024-03-01": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.55,
+      "sst": 14.8
+    },
+    "izmit": {
+      "risk_percentage": 1.95,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.6,
+      "sst": 15.5
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.92,
+      "sst": 15.1
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.01,
+      "sst": 14.5
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.69,
+      "sst": 14.9
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.87,
+      "sst": 14.0
+    }
+  },
+  "2024-03-04": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.99,
+      "sst": 14.5
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.33,
+      "sst": 15.2
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.89,
+      "sst": 14.8
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.29,
+      "sst": 14.2
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.74,
+      "sst": 14.6
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.54,
+      "sst": 13.8
+    }
+  },
+  "2024-03-07": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.62,
+      "sst": 15.2
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.26,
+      "sst": 16.0
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.71,
+      "sst": 15.5
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.99,
+      "sst": 14.9
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.53,
+      "sst": 15.4
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.08,
+      "sst": 14.4
+    }
+  },
+  "2024-03-10": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.92,
+      "sst": 15.6
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.69,
+      "sst": 16.4
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.1,
+      "sst": 15.9
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.31,
+      "sst": 15.3
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.9,
+      "sst": 15.8
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.33,
+      "sst": 14.8
+    }
+  },
+  "2024-03-13": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.29,
+      "sst": 15.6
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.23,
+      "sst": 16.4
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.58,
+      "sst": 16.0
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.72,
+      "sst": 15.3
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.37,
+      "sst": 15.8
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.65,
+      "sst": 14.9
+    }
+  },
+  "2024-03-16": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.51,
+      "sst": 16.0
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.55,
+      "sst": 16.8
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.87,
+      "sst": 16.3
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.97,
+      "sst": 15.7
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.64,
+      "sst": 16.1
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.84,
+      "sst": 15.2
+    }
+  },
+  "2024-03-19": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.8,
+      "sst": 17.7
+    },
+    "izmit": {
+      "risk_percentage": 13.89,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.95,
+      "sst": 18.5
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.23,
+      "sst": 18.0
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.27,
+      "sst": 17.3
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.99,
+      "sst": 17.8
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.08,
+      "sst": 16.8
+    }
+  },
+  "2024-03-22": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.47,
+      "sst": 18.6
+    },
+    "izmit": {
+      "risk_percentage": 14.89,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.93,
+      "sst": 19.6
+    },
+    "gemlik": {
+      "risk_percentage": 11.89,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.11,
+      "sst": 19.0
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.02,
+      "sst": 18.2
+    },
+    "bandirma": {
+      "risk_percentage": 12.89,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.84,
+      "sst": 18.8
+    },
+    "tekirdag": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.65,
+      "sst": 17.7
+    }
+  },
+  "2024-03-25": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.63,
+      "sst": 17.0
+    },
+    "izmit": {
+      "risk_percentage": 16.81,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.17,
+      "sst": 17.9
+    },
+    "gemlik": {
+      "risk_percentage": 13.81,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.32,
+      "sst": 17.3
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.19,
+      "sst": 16.7
+    },
+    "bandirma": {
+      "risk_percentage": 13.81,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.04,
+      "sst": 17.2
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.79,
+      "sst": 16.2
+    }
+  },
+  "2024-03-28": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.56,
+      "sst": 18.8
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.61,
+      "sst": 19.7
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.93,
+      "sst": 19.2
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.01,
+      "sst": 18.4
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.7,
+      "sst": 19.0
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.87,
+      "sst": 17.8
+    }
+  },
+  "2024-03-31": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.26,
+      "sst": 18.5
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.62,
+      "sst": 19.4
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.83,
+      "sst": 18.8
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.78,
+      "sst": 18.1
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.57,
+      "sst": 18.7
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.47,
+      "sst": 17.6
+    }
+  },
+  "2024-04-03": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.55,
+      "sst": 20.7
+    },
+    "izmit": {
+      "risk_percentage": 9.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.04,
+      "sst": 21.7
+    },
+    "gemlik": {
+      "risk_percentage": 3.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.21,
+      "sst": 21.1
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.1,
+      "sst": 20.2
+    },
+    "bandirma": {
+      "risk_percentage": 4.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.93,
+      "sst": 20.9
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.71,
+      "sst": 19.6
+    }
+  },
+  "2024-04-06": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.87,
+      "sst": 20.6
+    },
+    "izmit": {
+      "risk_percentage": 20.95,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.07,
+      "sst": 21.7
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.34,
+      "sst": 21.1
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.36,
+      "sst": 20.2
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.09,
+      "sst": 20.9
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.14,
+      "sst": 19.6
+    }
+  },
+  "2024-04-09": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.99,
+      "sst": 20.4
+    },
+    "izmit": {
+      "risk_percentage": 18.95,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.68,
+      "sst": 21.4
+    },
+    "gemlik": {
+      "risk_percentage": 17.89,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.78,
+      "sst": 20.8
+    },
+    "adalar": {
+      "risk_percentage": 1.95,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.58,
+      "sst": 20.0
+    },
+    "bandirma": {
+      "risk_percentage": 16.89,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.48,
+      "sst": 20.6
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.09,
+      "sst": 19.4
+    }
+  },
+  "2024-04-12": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.96,
+      "sst": 19.8
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.2,
+      "sst": 20.7
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.45,
+      "sst": 20.2
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.46,
+      "sst": 19.4
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.2,
+      "sst": 20.0
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.22,
+      "sst": 18.8
+    }
+  },
+  "2024-04-15": {
+    "all": {
+      "risk_percentage": 33.0,
+      "risk_level": "Medium",
+      "chlorophyll_a": 5.78,
+      "sst": 22.0
+    },
+    "izmit": {
+      "risk_percentage": 89.95,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 8.39,
+      "sst": 23.1
+    },
+    "gemlik": {
+      "risk_percentage": 70.67,
+      "risk_level": "High",
+      "chlorophyll_a": 7.52,
+      "sst": 22.5
+    },
+    "adalar": {
+      "risk_percentage": 6.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.36,
+      "sst": 21.6
+    },
+    "bandirma": {
+      "risk_percentage": 58.67,
+      "risk_level": "High",
+      "chlorophyll_a": 7.23,
+      "sst": 22.3
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.92,
+      "sst": 20.9
+    }
+  },
+  "2024-04-18": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.1,
+      "sst": 20.4
+    },
+    "izmit": {
+      "risk_percentage": 14.92,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.85,
+      "sst": 21.5
+    },
+    "gemlik": {
+      "risk_percentage": 9.86,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.93,
+      "sst": 20.9
+    },
+    "adalar": {
+      "risk_percentage": 3.92,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.71,
+      "sst": 20.0
+    },
+    "bandirma": {
+      "risk_percentage": 9.86,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.63,
+      "sst": 20.7
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.19,
+      "sst": 19.4
+    }
+  },
+  "2024-04-21": {
+    "all": {
+      "risk_percentage": 19.89,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.66,
+      "sst": 21.9
+    },
+    "izmit": {
+      "risk_percentage": 68.95,
+      "risk_level": "High",
+      "chlorophyll_a": 11.11,
+      "sst": 23.0
+    },
+    "gemlik": {
+      "risk_percentage": 49.91,
+      "risk_level": "Medium",
+      "chlorophyll_a": 9.96,
+      "sst": 22.3
+    },
+    "adalar": {
+      "risk_percentage": 14.95,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.42,
+      "sst": 21.4
+    },
+    "bandirma": {
+      "risk_percentage": 48.91,
+      "risk_level": "Medium",
+      "chlorophyll_a": 9.57,
+      "sst": 22.1
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.51,
+      "sst": 20.8
+    }
+  },
+  "2024-04-24": {
+    "all": {
+      "risk_percentage": 63.58,
+      "risk_level": "High",
+      "chlorophyll_a": 6.82,
+      "sst": 22.1
+    },
+    "izmit": {
+      "risk_percentage": 70.86,
+      "risk_level": "High",
+      "chlorophyll_a": 9.88,
+      "sst": 23.2
+    },
+    "gemlik": {
+      "risk_percentage": 60.82,
+      "risk_level": "High",
+      "chlorophyll_a": 8.86,
+      "sst": 22.5
+    },
+    "adalar": {
+      "risk_percentage": 22.81,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.5,
+      "sst": 21.6
+    },
+    "bandirma": {
+      "risk_percentage": 54.82,
+      "risk_level": "High",
+      "chlorophyll_a": 8.52,
+      "sst": 22.3
+    },
+    "tekirdag": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.79,
+      "sst": 21.0
+    }
+  },
+  "2024-04-27": {
+    "all": {
+      "risk_percentage": 4.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.52,
+      "sst": 21.4
+    },
+    "izmit": {
+      "risk_percentage": 65.82,
+      "risk_level": "High",
+      "chlorophyll_a": 9.45,
+      "sst": 22.5
+    },
+    "gemlik": {
+      "risk_percentage": 23.86,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.47,
+      "sst": 21.8
+    },
+    "adalar": {
+      "risk_percentage": 15.86,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.17,
+      "sst": 21.0
+    },
+    "bandirma": {
+      "risk_percentage": 24.81,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.15,
+      "sst": 21.6
+    },
+    "tekirdag": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.54,
+      "sst": 20.3
+    }
+  },
+  "2024-04-30": {
+    "all": {
+      "risk_percentage": 11.69,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.14,
+      "sst": 22.8
+    },
+    "izmit": {
+      "risk_percentage": 19.92,
+      "risk_level": "Low",
+      "chlorophyll_a": 10.35,
+      "sst": 23.9
+    },
+    "gemlik": {
+      "risk_percentage": 21.92,
+      "risk_level": "Low",
+      "chlorophyll_a": 9.28,
+      "sst": 23.3
+    },
+    "adalar": {
+      "risk_percentage": 15.88,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.85,
+      "sst": 22.3
+    },
+    "bandirma": {
+      "risk_percentage": 18.92,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.93,
+      "sst": 23.0
+    },
+    "tekirdag": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.07,
+      "sst": 21.7
+    }
+  },
+  "2024-05-03": {
+    "all": {
+      "risk_percentage": 5.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.96,
+      "sst": 23.7
+    },
+    "izmit": {
+      "risk_percentage": 22.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.64,
+      "sst": 24.9
+    },
+    "gemlik": {
+      "risk_percentage": 23.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.75,
+      "sst": 24.2
+    },
+    "adalar": {
+      "risk_percentage": 10.81,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.56,
+      "sst": 23.2
+    },
+    "bandirma": {
+      "risk_percentage": 10.81,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.45,
+      "sst": 24.0
+    },
+    "tekirdag": {
+      "risk_percentage": 5.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.07,
+      "sst": 22.5
+    }
+  },
+  "2024-05-06": {
+    "all": {
+      "risk_percentage": 83.81,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 6.97,
+      "sst": 22.9
+    },
+    "izmit": {
+      "risk_percentage": 86.95,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 10.1,
+      "sst": 24.1
+    },
+    "gemlik": {
+      "risk_percentage": 83.95,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 9.06,
+      "sst": 23.4
+    },
+    "adalar": {
+      "risk_percentage": 70.85,
+      "risk_level": "High",
+      "chlorophyll_a": 7.66,
+      "sst": 22.5
+    },
+    "bandirma": {
+      "risk_percentage": 84.95,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 8.71,
+      "sst": 23.2
+    },
+    "tekirdag": {
+      "risk_percentage": 5.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.92,
+      "sst": 21.8
+    }
+  },
+  "2024-05-09": {
+    "all": {
+      "risk_percentage": 93.73,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 7.4,
+      "sst": 23.3
+    },
+    "izmit": {
+      "risk_percentage": 87.92,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 10.73,
+      "sst": 24.4
+    },
+    "gemlik": {
+      "risk_percentage": 83.92,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 9.62,
+      "sst": 23.7
+    },
+    "adalar": {
+      "risk_percentage": 74.88,
+      "risk_level": "High",
+      "chlorophyll_a": 8.14,
+      "sst": 22.8
+    },
+    "bandirma": {
+      "risk_percentage": 83.92,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 9.25,
+      "sst": 23.5
+    },
+    "tekirdag": {
+      "risk_percentage": 35.0,
+      "risk_level": "Medium",
+      "chlorophyll_a": 6.29,
+      "sst": 22.1
+    }
+  },
+  "2024-05-12": {
+    "all": {
+      "risk_percentage": 5.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 15.0,
+      "sst": 23.4
+    },
+    "izmit": {
+      "risk_percentage": 6.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 21.75,
+      "sst": 24.6
+    },
+    "gemlik": {
+      "risk_percentage": 5.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 19.5,
+      "sst": 23.9
+    },
+    "adalar": {
+      "risk_percentage": 6.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 16.5,
+      "sst": 23.0
+    },
+    "bandirma": {
+      "risk_percentage": 5.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 18.75,
+      "sst": 23.7
+    },
+    "tekirdag": {
+      "risk_percentage": 3.95,
+      "risk_level": "Low",
+      "chlorophyll_a": 12.75,
+      "sst": 22.3
+    }
+  },
+  "2024-05-15": {
+    "all": {
+      "risk_percentage": 87.76,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 7.6,
+      "sst": 25.1
+    },
+    "izmit": {
+      "risk_percentage": 86.84,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 11.03,
+      "sst": 26.4
+    },
+    "gemlik": {
+      "risk_percentage": 89.84,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 9.88,
+      "sst": 25.6
+    },
+    "adalar": {
+      "risk_percentage": 92.84,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 8.36,
+      "sst": 24.6
+    },
+    "bandirma": {
+      "risk_percentage": 89.84,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 9.5,
+      "sst": 25.4
+    },
+    "tekirdag": {
+      "risk_percentage": 56.81,
+      "risk_level": "High",
+      "chlorophyll_a": 6.46,
+      "sst": 23.9
+    }
+  },
+  "2024-05-18": {
+    "all": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.93,
+      "sst": 23.0
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 10.05,
+      "sst": 24.1
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 9.01,
+      "sst": 23.4
+    },
+    "adalar": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.63,
+      "sst": 22.5
+    },
+    "bandirma": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.67,
+      "sst": 23.2
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.89,
+      "sst": 21.8
+    }
+  },
+  "2024-05-21": {
+    "all": {
+      "risk_percentage": 6.73,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.6,
+      "sst": 23.7
+    },
+    "izmit": {
+      "risk_percentage": 17.81,
+      "risk_level": "Low",
+      "chlorophyll_a": 11.02,
+      "sst": 24.9
+    },
+    "gemlik": {
+      "risk_percentage": 13.92,
+      "risk_level": "Low",
+      "chlorophyll_a": 9.88,
+      "sst": 24.2
+    },
+    "adalar": {
+      "risk_percentage": 13.92,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.36,
+      "sst": 23.3
+    },
+    "bandirma": {
+      "risk_percentage": 10.92,
+      "risk_level": "Low",
+      "chlorophyll_a": 9.5,
+      "sst": 24.0
+    },
+    "tekirdag": {
+      "risk_percentage": 7.78,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.46,
+      "sst": 22.5
+    }
+  },
+  "2024-05-24": {
+    "all": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.56,
+      "sst": 24.7
+    },
+    "izmit": {
+      "risk_percentage": 5.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 10.97,
+      "sst": 26.0
+    },
+    "gemlik": {
+      "risk_percentage": 2.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 9.83,
+      "sst": 25.2
+    },
+    "adalar": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.32,
+      "sst": 24.3
+    },
+    "bandirma": {
+      "risk_percentage": 2.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 9.45,
+      "sst": 25.0
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.43,
+      "sst": 23.5
+    }
+  },
+  "2024-05-27": {
+    "all": {
+      "risk_percentage": 92.95,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 8.26,
+      "sst": 24.3
+    },
+    "izmit": {
+      "risk_percentage": 83.84,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 11.98,
+      "sst": 25.6
+    },
+    "gemlik": {
+      "risk_percentage": 85.84,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 10.74,
+      "sst": 24.8
+    },
+    "adalar": {
+      "risk_percentage": 78.95,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 9.09,
+      "sst": 23.9
+    },
+    "bandirma": {
+      "risk_percentage": 83.95,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 10.33,
+      "sst": 24.6
+    },
+    "tekirdag": {
+      "risk_percentage": 86.76,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 7.02,
+      "sst": 23.1
+    }
+  },
+  "2024-05-30": {
+    "all": {
+      "risk_percentage": 94.92,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 7.83,
+      "sst": 24.7
+    },
+    "izmit": {
+      "risk_percentage": 87.81,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 11.36,
+      "sst": 25.9
+    },
+    "gemlik": {
+      "risk_percentage": 88.81,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 10.18,
+      "sst": 25.1
+    },
+    "adalar": {
+      "risk_percentage": 86.92,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 8.62,
+      "sst": 24.2
+    },
+    "bandirma": {
+      "risk_percentage": 89.81,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 9.79,
+      "sst": 24.9
+    },
+    "tekirdag": {
+      "risk_percentage": 64.73,
+      "risk_level": "High",
+      "chlorophyll_a": 6.66,
+      "sst": 23.4
+    }
+  },
+  "2024-06-02": {
+    "all": {
+      "risk_percentage": 6.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.59,
+      "sst": 24.5
+    },
+    "izmit": {
+      "risk_percentage": 12.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 11.0,
+      "sst": 25.8
+    },
+    "gemlik": {
+      "risk_percentage": 9.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 9.86,
+      "sst": 25.0
+    },
+    "adalar": {
+      "risk_percentage": 8.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.35,
+      "sst": 24.1
+    },
+    "bandirma": {
+      "risk_percentage": 7.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 9.49,
+      "sst": 24.8
+    },
+    "tekirdag": {
+      "risk_percentage": 3.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.45,
+      "sst": 23.3
+    }
+  },
+  "2024-06-05": {
+    "all": {
+      "risk_percentage": 74.81,
+      "risk_level": "High",
+      "chlorophyll_a": 8.29,
+      "sst": 25.4
+    },
+    "izmit": {
+      "risk_percentage": 65.81,
+      "risk_level": "High",
+      "chlorophyll_a": 12.03,
+      "sst": 26.7
+    },
+    "gemlik": {
+      "risk_percentage": 70.81,
+      "risk_level": "High",
+      "chlorophyll_a": 10.78,
+      "sst": 25.9
+    },
+    "adalar": {
+      "risk_percentage": 68.81,
+      "risk_level": "High",
+      "chlorophyll_a": 9.12,
+      "sst": 24.9
+    },
+    "bandirma": {
+      "risk_percentage": 70.81,
+      "risk_level": "High",
+      "chlorophyll_a": 10.37,
+      "sst": 25.7
+    },
+    "tekirdag": {
+      "risk_percentage": 45.73,
+      "risk_level": "Medium",
+      "chlorophyll_a": 7.05,
+      "sst": 24.2
+    }
+  },
+  "2024-06-08": {
+    "all": {
+      "risk_percentage": 84.84,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 14.33,
+      "sst": 25.8
+    },
+    "izmit": {
+      "risk_percentage": 71.9,
+      "risk_level": "High",
+      "chlorophyll_a": 20.78,
+      "sst": 27.1
+    },
+    "gemlik": {
+      "risk_percentage": 71.9,
+      "risk_level": "High",
+      "chlorophyll_a": 18.63,
+      "sst": 26.3
+    },
+    "adalar": {
+      "risk_percentage": 76.84,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 15.76,
+      "sst": 25.3
+    },
+    "bandirma": {
+      "risk_percentage": 76.9,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 17.91,
+      "sst": 26.1
+    },
+    "tekirdag": {
+      "risk_percentage": 79.95,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 12.18,
+      "sst": 24.5
+    }
+  },
+  "2024-06-11": {
+    "all": {
+      "risk_percentage": 92.0,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 7.79,
+      "sst": 26.6
+    },
+    "izmit": {
+      "risk_percentage": 83.9,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 11.29,
+      "sst": 27.9
+    },
+    "gemlik": {
+      "risk_percentage": 87.9,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 10.13,
+      "sst": 27.1
+    },
+    "adalar": {
+      "risk_percentage": 88.9,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 8.57,
+      "sst": 26.0
+    },
+    "bandirma": {
+      "risk_percentage": 86.9,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 9.74,
+      "sst": 26.8
+    },
+    "tekirdag": {
+      "risk_percentage": 48.81,
+      "risk_level": "Medium",
+      "chlorophyll_a": 6.62,
+      "sst": 25.2
+    }
+  },
+  "2024-06-14": {
+    "all": {
+      "risk_percentage": 1.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.12,
+      "sst": 24.9
+    },
+    "izmit": {
+      "risk_percentage": 4.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 11.77,
+      "sst": 26.1
+    },
+    "gemlik": {
+      "risk_percentage": 1.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 10.55,
+      "sst": 25.3
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.93,
+      "sst": 24.4
+    },
+    "bandirma": {
+      "risk_percentage": 1.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 10.15,
+      "sst": 25.1
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.9,
+      "sst": 23.6
+    }
+  },
+  "2024-06-17": {
+    "all": {
+      "risk_percentage": 1.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.27,
+      "sst": 25.2
+    },
+    "izmit": {
+      "risk_percentage": 4.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 11.99,
+      "sst": 26.5
+    },
+    "gemlik": {
+      "risk_percentage": 4.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 10.75,
+      "sst": 25.7
+    },
+    "adalar": {
+      "risk_percentage": 0.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 9.1,
+      "sst": 24.7
+    },
+    "bandirma": {
+      "risk_percentage": 4.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 10.34,
+      "sst": 25.4
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.03,
+      "sst": 23.9
+    }
+  },
+  "2024-06-20": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.56,
+      "sst": 24.4
+    },
+    "izmit": {
+      "risk_percentage": 4.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 10.96,
+      "sst": 25.6
+    },
+    "gemlik": {
+      "risk_percentage": 1.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 9.83,
+      "sst": 24.9
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.31,
+      "sst": 23.9
+    },
+    "bandirma": {
+      "risk_percentage": 0.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 9.45,
+      "sst": 24.6
+    },
+    "tekirdag": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.42,
+      "sst": 23.1
+    }
+  },
+  "2024-06-23": {
+    "all": {
+      "risk_percentage": 7.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.18,
+      "sst": 24.7
+    },
+    "izmit": {
+      "risk_percentage": 9.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 11.86,
+      "sst": 26.0
+    },
+    "gemlik": {
+      "risk_percentage": 8.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 10.63,
+      "sst": 25.2
+    },
+    "adalar": {
+      "risk_percentage": 6.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 9.0,
+      "sst": 24.2
+    },
+    "bandirma": {
+      "risk_percentage": 8.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 10.23,
+      "sst": 25.0
+    },
+    "tekirdag": {
+      "risk_percentage": 7.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.95,
+      "sst": 23.5
+    }
+  },
+  "2024-06-26": {
+    "all": {
+      "risk_percentage": 62.9,
+      "risk_level": "High",
+      "chlorophyll_a": 18.53,
+      "sst": 25.4
+    },
+    "izmit": {
+      "risk_percentage": 65.9,
+      "risk_level": "High",
+      "chlorophyll_a": 26.87,
+      "sst": 26.6
+    },
+    "gemlik": {
+      "risk_percentage": 68.9,
+      "risk_level": "High",
+      "chlorophyll_a": 24.09,
+      "sst": 25.9
+    },
+    "adalar": {
+      "risk_percentage": 62.9,
+      "risk_level": "High",
+      "chlorophyll_a": 20.39,
+      "sst": 24.8
+    },
+    "bandirma": {
+      "risk_percentage": 65.9,
+      "risk_level": "High",
+      "chlorophyll_a": 23.17,
+      "sst": 25.6
+    },
+    "tekirdag": {
+      "risk_percentage": 60.0,
+      "risk_level": "High",
+      "chlorophyll_a": 15.75,
+      "sst": 24.1
+    }
+  },
+  "2024-06-29": {
+    "all": {
+      "risk_percentage": 91.0,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 7.78,
+      "sst": 26.9
+    },
+    "izmit": {
+      "risk_percentage": 82.9,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 11.28,
+      "sst": 28.3
+    },
+    "gemlik": {
+      "risk_percentage": 85.9,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 10.11,
+      "sst": 27.5
+    },
+    "adalar": {
+      "risk_percentage": 85.9,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 8.56,
+      "sst": 26.4
+    },
+    "bandirma": {
+      "risk_percentage": 85.9,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 9.72,
+      "sst": 27.2
+    },
+    "tekirdag": {
+      "risk_percentage": 51.81,
+      "risk_level": "High",
+      "chlorophyll_a": 6.61,
+      "sst": 25.6
+    }
+  },
+  "2024-07-02": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.97,
+      "sst": 24.4
+    },
+    "izmit": {
+      "risk_percentage": 4.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 11.56,
+      "sst": 25.6
+    },
+    "gemlik": {
+      "risk_percentage": 1.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 10.36,
+      "sst": 24.8
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.77,
+      "sst": 23.9
+    },
+    "bandirma": {
+      "risk_percentage": 0.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 9.96,
+      "sst": 24.6
+    },
+    "tekirdag": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.77,
+      "sst": 23.1
+    }
+  },
+  "2024-07-05": {
+    "all": {
+      "risk_percentage": 9.92,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.09,
+      "sst": 26.3
+    },
+    "izmit": {
+      "risk_percentage": 20.81,
+      "risk_level": "Low",
+      "chlorophyll_a": 10.28,
+      "sst": 27.7
+    },
+    "gemlik": {
+      "risk_percentage": 20.81,
+      "risk_level": "Low",
+      "chlorophyll_a": 9.22,
+      "sst": 26.9
+    },
+    "adalar": {
+      "risk_percentage": 24.92,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.8,
+      "sst": 25.8
+    },
+    "bandirma": {
+      "risk_percentage": 20.81,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.86,
+      "sst": 26.6
+    },
+    "tekirdag": {
+      "risk_percentage": 5.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.03,
+      "sst": 25.0
+    }
+  },
+  "2024-07-08": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.52,
+      "sst": 24.0
+    },
+    "izmit": {
+      "risk_percentage": 1.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 10.9,
+      "sst": 25.2
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 9.77,
+      "sst": 24.5
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.27,
+      "sst": 23.5
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 9.4,
+      "sst": 24.2
+    },
+    "tekirdag": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.39,
+      "sst": 22.8
+    }
+  },
+  "2024-07-11": {
+    "all": {
+      "risk_percentage": 14.73,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.05,
+      "sst": 25.0
+    },
+    "izmit": {
+      "risk_percentage": 26.81,
+      "risk_level": "Medium",
+      "chlorophyll_a": 10.22,
+      "sst": 26.2
+    },
+    "gemlik": {
+      "risk_percentage": 28.81,
+      "risk_level": "Medium",
+      "chlorophyll_a": 9.16,
+      "sst": 25.5
+    },
+    "adalar": {
+      "risk_percentage": 24.92,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.75,
+      "sst": 24.5
+    },
+    "bandirma": {
+      "risk_percentage": 25.81,
+      "risk_level": "Medium",
+      "chlorophyll_a": 8.81,
+      "sst": 25.2
+    },
+    "tekirdag": {
+      "risk_percentage": 8.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.99,
+      "sst": 23.7
+    }
+  },
+  "2024-07-14": {
+    "all": {
+      "risk_percentage": 6.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.25,
+      "sst": 24.8
+    },
+    "izmit": {
+      "risk_percentage": 8.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 10.51,
+      "sst": 26.0
+    },
+    "gemlik": {
+      "risk_percentage": 5.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 9.42,
+      "sst": 25.3
+    },
+    "adalar": {
+      "risk_percentage": 4.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.97,
+      "sst": 24.3
+    },
+    "bandirma": {
+      "risk_percentage": 6.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 9.06,
+      "sst": 25.0
+    },
+    "tekirdag": {
+      "risk_percentage": 2.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.16,
+      "sst": 23.6
+    }
+  },
+  "2024-07-17": {
+    "all": {
+      "risk_percentage": 16.81,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.42,
+      "sst": 25.3
+    },
+    "izmit": {
+      "risk_percentage": 32.9,
+      "risk_level": "Medium",
+      "chlorophyll_a": 10.77,
+      "sst": 26.6
+    },
+    "gemlik": {
+      "risk_percentage": 34.9,
+      "risk_level": "Medium",
+      "chlorophyll_a": 9.65,
+      "sst": 25.8
+    },
+    "adalar": {
+      "risk_percentage": 29.9,
+      "risk_level": "Medium",
+      "chlorophyll_a": 8.17,
+      "sst": 24.8
+    },
+    "bandirma": {
+      "risk_percentage": 32.9,
+      "risk_level": "Medium",
+      "chlorophyll_a": 9.28,
+      "sst": 25.6
+    },
+    "tekirdag": {
+      "risk_percentage": 10.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.31,
+      "sst": 24.0
+    }
+  },
+  "2024-07-20": {
+    "all": {
+      "risk_percentage": 1.95,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.52,
+      "sst": 23.8
+    },
+    "izmit": {
+      "risk_percentage": 5.84,
+      "risk_level": "Low",
+      "chlorophyll_a": 12.36,
+      "sst": 24.9
+    },
+    "gemlik": {
+      "risk_percentage": 3.95,
+      "risk_level": "Low",
+      "chlorophyll_a": 11.08,
+      "sst": 24.2
+    },
+    "adalar": {
+      "risk_percentage": 2.95,
+      "risk_level": "Low",
+      "chlorophyll_a": 9.37,
+      "sst": 23.3
+    },
+    "bandirma": {
+      "risk_percentage": 1.95,
+      "risk_level": "Low",
+      "chlorophyll_a": 10.65,
+      "sst": 24.0
+    },
+    "tekirdag": {
+      "risk_percentage": 11.95,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.24,
+      "sst": 22.6
+    }
+  },
+  "2024-07-23": {
+    "all": {
+      "risk_percentage": 87.92,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 7.68,
+      "sst": 24.8
+    },
+    "izmit": {
+      "risk_percentage": 76.76,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 11.13,
+      "sst": 26.1
+    },
+    "gemlik": {
+      "risk_percentage": 77.76,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 9.98,
+      "sst": 25.3
+    },
+    "adalar": {
+      "risk_percentage": 75.86,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 8.45,
+      "sst": 24.3
+    },
+    "bandirma": {
+      "risk_percentage": 77.76,
+      "risk_level": "Extreme",
+      "chlorophyll_a": 9.6,
+      "sst": 25.1
+    },
+    "tekirdag": {
+      "risk_percentage": 49.81,
+      "risk_level": "Medium",
+      "chlorophyll_a": 6.53,
+      "sst": 23.6
+    }
+  },
+  "2024-07-26": {
+    "all": {
+      "risk_percentage": 6.95,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.91,
+      "sst": 22.2
+    },
+    "izmit": {
+      "risk_percentage": 2.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 11.47,
+      "sst": 23.3
+    },
+    "gemlik": {
+      "risk_percentage": 2.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 10.28,
+      "sst": 22.6
+    },
+    "adalar": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.7,
+      "sst": 21.7
+    },
+    "bandirma": {
+      "risk_percentage": 2.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 9.89,
+      "sst": 22.4
+    },
+    "tekirdag": {
+      "risk_percentage": 2.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.72,
+      "sst": 21.1
+    }
+  },
+  "2024-07-29": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.59,
+      "sst": 23.6
+    },
+    "izmit": {
+      "risk_percentage": 1.9,
+      "risk_level": "Low",
+      "chlorophyll_a": 11.0,
+      "sst": 24.7
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 9.86,
+      "sst": 24.0
+    },
+    "adalar": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.35,
+      "sst": 23.1
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 9.48,
+      "sst": 23.8
+    },
+    "tekirdag": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.45,
+      "sst": 22.4
+    }
+  },
+  "2024-08-01": {
+    "all": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 13.78,
+      "sst": 22.9
+    },
+    "izmit": {
+      "risk_percentage": 3.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 19.99,
+      "sst": 24.1
+    },
+    "gemlik": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 17.92,
+      "sst": 23.4
+    },
+    "adalar": {
+      "risk_percentage": 3.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 15.16,
+      "sst": 22.5
+    },
+    "bandirma": {
+      "risk_percentage": 3.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 17.23,
+      "sst": 23.2
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 11.72,
+      "sst": 21.8
+    }
+  },
+  "2024-08-04": {
+    "all": {
+      "risk_percentage": 10.81,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.6,
+      "sst": 23.4
+    },
+    "izmit": {
+      "risk_percentage": 20.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 11.02,
+      "sst": 24.6
+    },
+    "gemlik": {
+      "risk_percentage": 17.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 9.88,
+      "sst": 23.9
+    },
+    "adalar": {
+      "risk_percentage": 17.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.36,
+      "sst": 22.9
+    },
+    "bandirma": {
+      "risk_percentage": 17.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 9.5,
+      "sst": 23.6
+    },
+    "tekirdag": {
+      "risk_percentage": 7.78,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.46,
+      "sst": 22.2
+    }
+  },
+  "2024-08-07": {
+    "all": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.07,
+      "sst": 22.5
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 10.25,
+      "sst": 23.6
+    },
+    "gemlik": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 9.19,
+      "sst": 22.9
+    },
+    "adalar": {
+      "risk_percentage": 2.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.78,
+      "sst": 22.0
+    },
+    "bandirma": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.84,
+      "sst": 22.7
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.01,
+      "sst": 21.3
+    }
+  },
+  "2024-08-10": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.48,
+      "sst": 20.7
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 9.4,
+      "sst": 21.7
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.43,
+      "sst": 21.1
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.13,
+      "sst": 20.3
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.11,
+      "sst": 20.9
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.51,
+      "sst": 19.7
+    }
+  },
+  "2024-08-13": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.69,
+      "sst": 20.0
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 9.69,
+      "sst": 21.0
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.69,
+      "sst": 20.4
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.35,
+      "sst": 19.6
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.36,
+      "sst": 20.2
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.68,
+      "sst": 19.0
+    }
+  },
+  "2024-08-16": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.27,
+      "sst": 21.7
+    },
+    "izmit": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 9.09,
+      "sst": 22.7
+    },
+    "gemlik": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.15,
+      "sst": 22.1
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.9,
+      "sst": 21.2
+    },
+    "bandirma": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.84,
+      "sst": 21.9
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.33,
+      "sst": 20.6
+    }
+  },
+  "2024-08-19": {
+    "all": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.29,
+      "sst": 21.5
+    },
+    "izmit": {
+      "risk_percentage": 15.88,
+      "risk_level": "Low",
+      "chlorophyll_a": 9.12,
+      "sst": 22.6
+    },
+    "gemlik": {
+      "risk_percentage": 7.92,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.18,
+      "sst": 21.9
+    },
+    "adalar": {
+      "risk_percentage": 2.92,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.92,
+      "sst": 21.1
+    },
+    "bandirma": {
+      "risk_percentage": 6.92,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.86,
+      "sst": 21.7
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.35,
+      "sst": 20.4
+    }
+  },
+  "2024-08-22": {
+    "all": {
+      "risk_percentage": 5.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 17.01,
+      "sst": 20.1
+    },
+    "izmit": {
+      "risk_percentage": 6.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 24.67,
+      "sst": 21.1
+    },
+    "gemlik": {
+      "risk_percentage": 5.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 22.11,
+      "sst": 20.5
+    },
+    "adalar": {
+      "risk_percentage": 5.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 18.71,
+      "sst": 19.7
+    },
+    "bandirma": {
+      "risk_percentage": 5.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 21.26,
+      "sst": 20.3
+    },
+    "tekirdag": {
+      "risk_percentage": 4.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 14.46,
+      "sst": 19.1
+    }
+  },
+  "2024-08-25": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.13,
+      "sst": 20.6
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.88,
+      "sst": 21.6
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.96,
+      "sst": 21.0
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.74,
+      "sst": 20.1
+    },
+    "bandirma": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.66,
+      "sst": 20.8
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.21,
+      "sst": 19.5
+    }
+  },
+  "2024-08-28": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.29,
+      "sst": 19.5
+    },
+    "izmit": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 9.12,
+      "sst": 20.4
+    },
+    "gemlik": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.18,
+      "sst": 19.8
+    },
+    "adalar": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.92,
+      "sst": 19.1
+    },
+    "bandirma": {
+      "risk_percentage": 2.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.87,
+      "sst": 19.6
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.35,
+      "sst": 18.5
+    }
+  },
+  "2024-08-31": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.94,
+      "sst": 18.8
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.61,
+      "sst": 19.7
+    },
+    "gemlik": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.72,
+      "sst": 19.2
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.53,
+      "sst": 18.4
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.43,
+      "sst": 19.0
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.05,
+      "sst": 17.8
+    }
+  },
+  "2024-09-03": {
+    "all": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.35,
+      "sst": 20.8
+    },
+    "izmit": {
+      "risk_percentage": 22.92,
+      "risk_level": "Low",
+      "chlorophyll_a": 9.21,
+      "sst": 21.8
+    },
+    "gemlik": {
+      "risk_percentage": 16.86,
+      "risk_level": "Low",
+      "chlorophyll_a": 8.25,
+      "sst": 21.2
+    },
+    "adalar": {
+      "risk_percentage": 15.86,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.98,
+      "sst": 20.3
+    },
+    "bandirma": {
+      "risk_percentage": 15.86,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.94,
+      "sst": 21.0
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.4,
+      "sst": 19.7
+    }
+  },
+  "2024-09-06": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.71,
+      "sst": 17.7
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.84,
+      "sst": 18.6
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.13,
+      "sst": 18.1
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.19,
+      "sst": 17.4
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.89,
+      "sst": 17.9
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.01,
+      "sst": 16.8
+    }
+  },
+  "2024-09-09": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.84,
+      "sst": 17.7
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.02,
+      "sst": 18.6
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.29,
+      "sst": 18.1
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.33,
+      "sst": 17.4
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.05,
+      "sst": 17.9
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.12,
+      "sst": 16.9
+    }
+  },
+  "2024-09-12": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.97,
+      "sst": 18.7
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.21,
+      "sst": 19.6
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.46,
+      "sst": 19.1
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.47,
+      "sst": 18.3
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.21,
+      "sst": 18.9
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.22,
+      "sst": 17.8
+    }
+  },
+  "2024-09-15": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.39,
+      "sst": 16.9
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.36,
+      "sst": 17.7
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.7,
+      "sst": 17.2
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.82,
+      "sst": 16.5
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.48,
+      "sst": 17.1
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.73,
+      "sst": 16.0
+    }
+  },
+  "2024-09-18": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.47,
+      "sst": 17.4
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.49,
+      "sst": 18.2
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.82,
+      "sst": 17.7
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.92,
+      "sst": 17.0
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.59,
+      "sst": 17.5
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.8,
+      "sst": 16.5
+    }
+  },
+  "2024-09-21": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.21,
+      "sst": 17.4
+    },
+    "izmit": {
+      "risk_percentage": 6.95,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.56,
+      "sst": 18.2
+    },
+    "gemlik": {
+      "risk_percentage": 6.95,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.78,
+      "sst": 17.7
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.73,
+      "sst": 17.0
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.52,
+      "sst": 17.5
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.43,
+      "sst": 16.5
+    }
+  },
+  "2024-09-24": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.9,
+      "sst": 16.6
+    },
+    "izmit": {
+      "risk_percentage": 6.89,
+      "risk_level": "Low",
+      "chlorophyll_a": 7.11,
+      "sst": 17.4
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.37,
+      "sst": 16.9
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.39,
+      "sst": 16.2
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.13,
+      "sst": 16.7
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.17,
+      "sst": 15.7
+    }
+  },
+  "2024-09-27": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.45,
+      "sst": 16.4
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.0,
+      "sst": 17.3
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.49,
+      "sst": 16.8
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.8,
+      "sst": 16.1
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.31,
+      "sst": 16.6
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.93,
+      "sst": 15.6
+    }
+  },
+  "2024-09-30": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.52,
+      "sst": 17.4
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.11,
+      "sst": 18.3
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.58,
+      "sst": 17.8
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.87,
+      "sst": 17.1
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.4,
+      "sst": 17.6
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.99,
+      "sst": 16.5
+    }
+  },
+  "2024-10-03": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.34,
+      "sst": 15.1
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 6.3,
+      "sst": 15.8
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.65,
+      "sst": 15.4
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.78,
+      "sst": 14.8
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.43,
+      "sst": 15.2
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.69,
+      "sst": 14.3
+    }
+  },
+  "2024-10-06": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.96,
+      "sst": 15.5
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.74,
+      "sst": 16.3
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 5.15,
+      "sst": 15.8
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.35,
+      "sst": 15.2
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.95,
+      "sst": 15.7
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.37,
+      "sst": 14.7
+    }
+  },
+  "2024-10-09": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.84,
+      "sst": 16.0
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.11,
+      "sst": 16.8
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.69,
+      "sst": 16.4
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.12,
+      "sst": 15.7
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.55,
+      "sst": 16.2
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.41,
+      "sst": 15.2
+    }
+  },
+  "2024-10-12": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.29,
+      "sst": 15.9
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.33,
+      "sst": 16.7
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.98,
+      "sst": 16.2
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.52,
+      "sst": 15.5
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.87,
+      "sst": 16.0
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.95,
+      "sst": 15.1
+    }
+  },
+  "2024-10-15": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.89,
+      "sst": 14.1
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.19,
+      "sst": 14.8
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.76,
+      "sst": 14.3
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.18,
+      "sst": 13.8
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.61,
+      "sst": 14.2
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.46,
+      "sst": 13.4
+    }
+  },
+  "2024-10-18": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.48,
+      "sst": 13.9
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.6,
+      "sst": 14.6
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.23,
+      "sst": 14.2
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.73,
+      "sst": 13.6
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.11,
+      "sst": 14.0
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.11,
+      "sst": 13.2
+    }
+  },
+  "2024-10-21": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.89,
+      "sst": 13.2
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.75,
+      "sst": 13.9
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.46,
+      "sst": 13.5
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.08,
+      "sst": 12.9
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.37,
+      "sst": 13.3
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.61,
+      "sst": 12.5
+    }
+  },
+  "2024-10-24": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.99,
+      "sst": 13.4
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.89,
+      "sst": 14.0
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.59,
+      "sst": 13.6
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.19,
+      "sst": 13.1
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.49,
+      "sst": 13.5
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.69,
+      "sst": 12.7
+    }
+  },
+  "2024-10-27": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.03,
+      "sst": 11.5
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.39,
+      "sst": 12.1
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.93,
+      "sst": 11.8
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.33,
+      "sst": 11.3
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.78,
+      "sst": 11.6
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.57,
+      "sst": 10.9
+    }
+  },
+  "2024-10-30": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.86,
+      "sst": 11.5
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 4.15,
+      "sst": 12.0
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.72,
+      "sst": 11.7
+    },
+    "adalar": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.15,
+      "sst": 11.2
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.58,
+      "sst": 11.6
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.43,
+      "sst": 10.9
+    }
+  },
+  "2024-11-02": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.69,
+      "sst": 12.5
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.46,
+      "sst": 13.2
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.2,
+      "sst": 12.8
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.86,
+      "sst": 12.3
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.12,
+      "sst": 12.7
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.44,
+      "sst": 11.9
+    }
+  },
+  "2024-11-05": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.49,
+      "sst": 12.7
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.16,
+      "sst": 13.3
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.94,
+      "sst": 12.9
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.64,
+      "sst": 12.4
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.86,
+      "sst": 12.8
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.27,
+      "sst": 12.0
+    }
+  },
+  "2024-11-08": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.68,
+      "sst": 10.4
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.43,
+      "sst": 10.9
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.18,
+      "sst": 10.6
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.85,
+      "sst": 10.2
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.1,
+      "sst": 10.5
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.43,
+      "sst": 9.9
+    }
+  },
+  "2024-11-11": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.28,
+      "sst": 11.2
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 3.3,
+      "sst": 11.8
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.96,
+      "sst": 11.5
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.51,
+      "sst": 11.0
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.85,
+      "sst": 11.4
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.94,
+      "sst": 10.7
+    }
+  },
+  "2024-11-14": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.89,
+      "sst": 10.9
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.29,
+      "sst": 11.5
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.16,
+      "sst": 11.1
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.98,
+      "sst": 10.7
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.11,
+      "sst": 11.0
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.76,
+      "sst": 10.4
+    }
+  },
+  "2024-11-17": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.92,
+      "sst": 11.6
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.78,
+      "sst": 12.2
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.49,
+      "sst": 11.8
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.11,
+      "sst": 11.3
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.4,
+      "sst": 11.7
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.63,
+      "sst": 11.0
+    }
+  },
+  "2024-11-20": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.85,
+      "sst": 11.0
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.23,
+      "sst": 11.6
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.1,
+      "sst": 11.3
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.93,
+      "sst": 10.8
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.06,
+      "sst": 11.2
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.72,
+      "sst": 10.5
+    }
+  },
+  "2024-11-23": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.06,
+      "sst": 10.1
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.54,
+      "sst": 10.6
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.38,
+      "sst": 10.3
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.17,
+      "sst": 9.9
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.33,
+      "sst": 10.2
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.9,
+      "sst": 9.6
+    }
+  },
+  "2024-11-26": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.22,
+      "sst": 11.5
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.76,
+      "sst": 12.0
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.58,
+      "sst": 11.7
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.34,
+      "sst": 11.2
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.52,
+      "sst": 11.6
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.03,
+      "sst": 10.9
+    }
+  },
+  "2024-11-29": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.23,
+      "sst": 10.2
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.78,
+      "sst": 10.7
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.6,
+      "sst": 10.4
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.35,
+      "sst": 10.0
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.54,
+      "sst": 10.3
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.04,
+      "sst": 9.7
+    }
+  },
+  "2024-12-02": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.73,
+      "sst": 10.5
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.06,
+      "sst": 11.1
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.95,
+      "sst": 10.7
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.81,
+      "sst": 10.3
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.92,
+      "sst": 10.6
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.62,
+      "sst": 10.0
+    }
+  },
+  "2024-12-05": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.89,
+      "sst": 9.5
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.28,
+      "sst": 10.0
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.15,
+      "sst": 9.7
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.97,
+      "sst": 9.3
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.11,
+      "sst": 9.6
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.75,
+      "sst": 9.0
+    }
+  },
+  "2024-12-08": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.51,
+      "sst": 9.8
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.19,
+      "sst": 10.3
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.97,
+      "sst": 10.0
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.66,
+      "sst": 9.6
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.89,
+      "sst": 9.9
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.28,
+      "sst": 9.3
+    }
+  },
+  "2024-12-11": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.68,
+      "sst": 8.6
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.98,
+      "sst": 9.0
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.88,
+      "sst": 8.7
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.74,
+      "sst": 8.4
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.85,
+      "sst": 8.6
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.58,
+      "sst": 8.1
+    }
+  },
+  "2024-12-14": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.7,
+      "sst": 10.2
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.02,
+      "sst": 10.7
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.91,
+      "sst": 10.4
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.77,
+      "sst": 10.0
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.88,
+      "sst": 10.3
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.6,
+      "sst": 9.7
+    }
+  },
+  "2024-12-17": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.42,
+      "sst": 9.1
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.06,
+      "sst": 9.5
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.84,
+      "sst": 9.3
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.56,
+      "sst": 8.9
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.77,
+      "sst": 9.2
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.21,
+      "sst": 8.6
+    }
+  },
+  "2024-12-20": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.53,
+      "sst": 11.2
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 2.22,
+      "sst": 11.7
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.99,
+      "sst": 11.4
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.68,
+      "sst": 10.9
+    },
+    "bandirma": {
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.91,
+      "sst": 11.3
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.3,
+      "sst": 10.6
+    }
+  },
+  "2024-12-23": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.61,
+      "sst": 10.5
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.89,
+      "sst": 11.0
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.8,
+      "sst": 10.7
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.68,
+      "sst": 10.3
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.77,
+      "sst": 10.6
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.52,
+      "sst": 10.0
+    }
+  },
+  "2024-12-26": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.06,
+      "sst": 10.4
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.54,
+      "sst": 10.9
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.38,
+      "sst": 10.6
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.17,
+      "sst": 10.2
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.33,
+      "sst": 10.5
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 0.9,
+      "sst": 9.9
+    }
+  },
+  "2024-12-29": {
+    "all": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.34,
+      "sst": 8.4
+    },
+    "izmit": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.95,
+      "sst": 8.8
+    },
+    "gemlik": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.75,
+      "sst": 8.6
+    },
+    "adalar": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.48,
+      "sst": 8.2
+    },
+    "bandirma": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.68,
+      "sst": 8.5
+    },
+    "tekirdag": {
+      "risk_percentage": 0.0,
+      "risk_level": "Low",
+      "chlorophyll_a": 1.14,
+      "sst": 8.0
+    }
+  }
+}
