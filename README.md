@@ -35,9 +35,13 @@ Takım 48
 - Denizcilik ve balıkçılık sektörü
 - Deniz bilimleri araştırmacıları ve akademisyenler
 
-## Product Backlog URL
+## 🔗 Proje Bağlantıları (Live Links)
 
-[Miro Backlog Board](https://miro.com/app/board/uXjVH7tYdQM=/?share_link_id=616030223380)
+> [!IMPORTANT]
+> 🌐 **CANLI UYGULAMA DEMO (VERCEL)**: [https://yzta-bootcamp-grup-48.vercel.app/](https://yzta-bootcamp-grup-48.vercel.app/)
+
+> [!NOTE]
+> 📋 **PRODUCT BACKLOG (MIRO BOARD)**: [https://miro.com/app/board/uXjVH7tYdQM=/](https://miro.com/app/board/uXjVH7tYdQM=/?share_link_id=616030223380)
 
 ---
 
@@ -137,9 +141,54 @@ Takım 48
 
 # Sprint 3
 
-- **Backlog düzeni ve Story seçimleri**: 
-- **Daily Scrum**: 
-- **Sprint board update**: 
-- **Ürün Durumu**: 
-- **Sprint Review**: 
-- **Sprint Retrospective**: 
+- **Backlog düzeni ve Story seçimleri**: Sprint 3 kapsamında harita tabanlı (GIS) web arayüzünün (dashboard) canlıya alınması, AI Agent mimarisi ile makine öğrenmesi tahmin modelinin entegre edilmesi, kod tabanının Clean Code prensiplerine göre refaktör edilmesi ve ürün teslim süreçlerinin tamamlanması hedeflenmiştir.
+  - **Toplam Planlanan Efor**: 18 SP (Story Point)
+  - **Seçilen Kullanıcı Hikayeleri (User Stories)**:
+    - **US-301 (6 SP)**: Harita Tabanlı (GIS) Web Dashboard Tasarımı — Leaflet.js ve Chart.js altyapısıyla bölge seçimli, katman kontrollü ve zaman serisi simülasyonlu arayüzün geliştirilmesi. (✅ Done)
+    - **US-302 (5 SP)**: Dashboard ve AI Agent Entegrasyonu — AI Agent (`DataAnalysisAgent`, `MucilageRiskAgent`, `ReportingAgent`) tahmin ve raporlama çıktılarının web arayüzüne (`predictions.json` ve canlı AI Agent analiz günlüğü) entegre edilmesi. (✅ Done)
+    - **US-303 (4 SP)**: Temiz Kod Refaktörü — Proje kod tabanının Clean Code prensiplerine göre refaktör edilmesi, merkezi loglama ve tip belirteçlerinin (type hints) tamamlanması. (✅ Done)
+    - **US-304 (3 SP)**: Vercel ile Projeyi Canlıya Alma — Vercel / GitHub Pages canlı dağıtım altyapısının (`vercel.json`, kök `index.html`) yapılandırılması ve yayınlanması. (✅ Done)
+
+  - **Sprint 3 Hedefi**: Makine öğrenmesi risk modelini ve AI Agent mimarisini harita tabanlı GIS web arayüzünde canlıya almak, kullanıcıların Marmara Denizi müsilaj riskini etkileşimli olarak izlemesini ve raporlamasını sağlamak.
+
+- **Sprint Backlog Tablosu**: 
+
+![Miro Backlog Board - Sprint 3](images/miro_backlog_sprint3.png)
+
+- **Daily Scrum**: Sprint 3 boyunca ekip içi iletişim ve günlük takip yazılı olarak ve online değerlendirme toplantılarıyla yürütülmüştür:
+
+![Daily Scrum - Sprint 3](images/daily_scrum_sprint3.png)
+
+![Daily Scrum 2 - Sprint 3](images/daily_scrum2_sprint3.png)
+
+![Daily Scrum 3 - Sprint 3](images/daily_scrum3_sprint3.png)
+
+---
+
+- **Sprint Board Update**: Sprint 3 sonundaki tüm görevlerin tamamlandığını gösteren güncel Miro panomuz:
+
+![Miro Sprint 3 Sprint Board Update](images/sprint3_board_update.png)
+
+---
+
+- **Ürün Durumu**: Leaflet.js altyapılı harita tabanlı (GIS) Web Dashboard geliştirildi, AI Agent ve makine öğrenmesi tahmin modelleri zaman serisi verileriyle entegre edildi. Proje Vercel altyapısı üzerinde canlıya alındı. (🌐 [https://yzta-bootcamp-grup-48.vercel.app/](https://yzta-bootcamp-grup-48.vercel.app/))
+
+![AquaSentinel AI Sprint 3 Model Performans & Özellik Önem Grafikleri](images/sprint3_model_performance.png)
+
+- **Model Seçimi ve İyileştirmeler**:
+  - **Random Forest Tercihi**: Yüksek açıklanabilirlik (özellik önem düzeyleri) ve uydu gürültüsüne karşı kararlılığı nedeniyle seçilmiştir.
+  - **Gelişmiş Özellikler**: Sıcaklık-Klorofil etkileşimi ve hareketli ortalamalar eklenerek 7 özelliğe çıkarılmıştır.
+  - **Doğrulanmış Başarım**: 5-Fold Cross-Validation ile **%93.33 doğruluk** elde edilmiştir.
+
+- **Sprint Review**:
+    - 90 adet gerçek Sentinel-3 NetCDF uydu verisi işlendi, gelişmiş ML modeli (GridSearch + Olasılık Kalibrasyonu) eğitilerek %93.33 5-Fold Cross-Validation doğruluğu doğrulandı.
+    - AI Agent ve ML tahmin modelinin web dashboard ile orkestrasyonu eksiksiz tamamlandı.
+    - Kod tabanı Clean Code standartlarında refaktör edildi, tip belirteçleri ve merkezi loglama güçlendirildi.
+    - Vercel üzerinde canlı web uygulaması yayına alındı.
+    - 3 dakikalık YouTube proje tanıtım videosu ve ürün teslim formu hazırlandı.
+
+- **Sprint Retrospective**:
+    - **İyi Gitti**: Frontend GIS arayüzü ve AI Agent günlüğü entegrasyonu görsel açıdan çok tatmin edici ve hızlı çalışır hale geldi. Vercel deployment sorunsuz gerçekleşti.
+    - **Geliştirilebilir**: Harita üzerindeki veri noktası (grid) çözünürlüğü gelecekte Sentinel-2 verileri ile mikro ölçeğe indirgenebilir.
+    - **Aksiyon**: Bootcamp sonrası projenin açık kaynak topluluğuna sunulması ve Çevre Bakanlığı/Belediye yetkilileri ile demo görüşmelerinin planlanması.
+

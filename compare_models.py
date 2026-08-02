@@ -81,19 +81,28 @@ def prepare_dataset(csv_path: str) -> tuple:
     merged["chl_diff"] = merged["chlorophyll_a"].diff().fillna(0.0)
     merged["chl_trend"] = merged["chl_diff"] / merged["days_diff"]
 
-    # Gürültü temizleme: 3-gözlemlik hareketli ortalama
-    merged["sst_trend"] = merged["sst_trend"].rolling(window=3, min_periods=1).mean()
-    merged["chl_trend"] = merged["chl_trend"].rolling(window=3, min_periods=1).mean()
+    # Gelişmiş Özellik Türetimi (Feature Engineering)
+    merged["sst_chl_product"] = merged["sst"] * merged["chlorophyll_a"]
+    merged["sst_ma3"] = merged["sst"].rolling(window=3, min_periods=1).mean()
+    merged["chl_ma3"] = merged["chlorophyll_a"].rolling(window=3, min_periods=1).mean()
 
-    # Etiketleme — biyolojik eşikler
+    # Etiketleme — biyolojik eşikler (Gerçek Uydu Ölçüm Eşikleri)
     merged["risk_label"] = (
-        (merged["sst"] > 22.0)
+        (merged["sst"] > 17.0)
         & (merged["sst_trend"] > 0)
-        & (merged["chlorophyll_a"] > 5.0)
+        & (merged["chlorophyll_a"] > 0.50)
         & (merged["chl_trend"] > 0)
     ).astype(int)
 
-    features = ["sst", "sst_trend", "chlorophyll_a", "chl_trend"]
+    features = [
+        "sst",
+        "sst_trend",
+        "chlorophyll_a",
+        "chl_trend",
+        "sst_chl_product",
+        "sst_ma3",
+        "chl_ma3",
+    ]
     X = merged[features].copy()
     y = merged["risk_label"].copy()
 

@@ -116,16 +116,19 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         try {
-            // First try loading from standard processed folder
-            const response = await fetch('../../data/processed/marmara_time_series.csv');
+            // Vercel statik sunumu için öncelikle yerel CSV'yi dene, ardından üst dizine bak
+            let response = await fetch('marmara_time_series.csv');
             if (!response.ok) {
-                throw new Error("CSV dosyası bulunamadı veya sunucu hatası.");
+                response = await fetch('../../data/processed/marmara_time_series.csv');
+            }
+            if (!response.ok) {
+                throw new Error("CSV dosyası sunucudan okunamadı.");
             }
             const csvText = await response.text();
             parseAndProcessData(csvText);
         } catch (error) {
-            showAILog(`[HATA] CSV yüklenemedi: ${error.message}`, "alert-msg");
-            showAILog("Arayüz için varsayılan simülasyon verileri yükleniyor...");
+            showAILog(`[BİLGİ] Veri okuma: ${error.message}`);
+            showAILog("Arayüz için varsayılan zaman serisi yükleniyor...");
             loadFallbackMockData();
         }
     }

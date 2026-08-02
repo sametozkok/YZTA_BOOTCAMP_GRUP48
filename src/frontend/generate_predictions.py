@@ -15,6 +15,18 @@ import pandas as pd
 import numpy as np
 import joblib
 
+# Windows UTF-8 desteği
+if sys.stdout:
+    try:
+        sys.stdout.reconfigure(encoding="utf-8")
+    except AttributeError:
+        pass
+if sys.stderr:
+    try:
+        sys.stderr.reconfigure(encoding="utf-8")
+    except AttributeError:
+        pass
+
 # Proje kökünü yola ekle
 sys.path.append(str(Path(__file__).resolve().parent.parent.parent))
 

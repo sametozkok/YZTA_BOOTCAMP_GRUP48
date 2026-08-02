@@ -32,7 +32,15 @@ class TestMucilageRiskModel:
         
         assert isinstance(X, pd.DataFrame)
         assert isinstance(y, pd.Series)
-        assert list(X.columns) == ["sst", "sst_trend", "chlorophyll_a", "chl_trend"]
+        assert list(X.columns) == [
+            "sst",
+            "sst_trend",
+            "chlorophyll_a",
+            "chl_trend",
+            "sst_chl_product",
+            "sst_ma3",
+            "chl_ma3",
+        ]
         assert len(X) == len(y)
         assert set(y.unique()).issubset({0, 1})
 
