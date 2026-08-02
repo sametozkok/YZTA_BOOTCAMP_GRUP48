@@ -15,7 +15,7 @@ Takım 48
 
 ## Ürün İsmi
 
---AquaSentinel AI--
+AquaSentinel AI
 
 ## Ürün Açıklaması
 
